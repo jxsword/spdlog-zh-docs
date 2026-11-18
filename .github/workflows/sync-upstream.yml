@@ -1,0 +1,96 @@
+name: sync-upstream
+
+# 每周一 cron：检测 wiki HEAD 变化 → 分期响应（计划 §6.1 / §6.6 基线锁定）：
+#   初译期（仓库尚无 v1.0 tag）：上游变更只自动开 issue 记录，不切基线（DR-003）
+#   v1.0 发布后：自动创建 sync/<date> 分支跑增量 sync → 开 Sync PR
+# 另附每周 release 查询，仅记录（计划 §6.1）。
+
+on:
+  schedule:
+    - cron: '30 2 * * 1'    # 每周一 UTC 02:30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Detect upstream wiki change
+        id: detect
+        run: |
+          WIKI_HEAD="$(git ls-remote https://github.com/gabime/spdlog.wiki.git HEAD | cut -f1)"
+          STATE_SHA="$(python3 -c "import json;print(json.load(open('.translation-state.json'))['upstream_commit'])")"
+          echo "wiki_head=$WIKI_HEAD" >> "$GITHUB_OUTPUT"
+          echo "state_sha=$STATE_SHA" >> "$GITHUB_OUTPUT"
+          if [ "$WIKI_HEAD" = "$STATE_SHA" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Release check（仅记录）
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="$(gh api repos/gabime/spdlog/releases/latest --jq '.tag_name')"
+          echo "spdlog latest release: $TAG（仅记录，不触发基线切换，计划 §6.1）" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Issue-only during initial translation（基线锁定，DR-003）
+        if: steps.detect.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WIKI_HEAD: ${{ steps.detect.outputs.wiki_head }}
+          STATE_SHA: ${{ steps.detect.outputs.state_sha }}
+        run: |
+          HAS_V1="$(git ls-remote --tags origin "refs/tags/v1.0" | grep -c v1.0 || true)"
+          if [ "${HAS_V1:-0}" -gt 0 ]; then
+            echo "v1.0 tag 已存在 → 由下一步 Auto sync PR 处理，不开 issue"
+            exit 0
+          fi
+          ISSUE_TITLE="上游 wiki 有新变更 @${WIKI_HEAD:0:8}（基线锁定期间，仅记录）"
+          gh issue create --title "$ISSUE_TITLE" \
+            --body "检测到上游 wiki HEAD 变为 ${WIKI_HEAD}，当前基线 ${STATE_SHA}。
+
+          按 DR-003 基线锁定策略：初译期（v1.0 tag 发布前）不切基线，仅记录；v1.0 后由本工作流下一周期自动开 Sync PR（计划 §6.6）。"
+
+      - name: Auto sync PR（v1.0 后启用）
+        if: steps.detect.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WIKI_HEAD: ${{ steps.detect.outputs.wiki_head }}
+          STATE_SHA: ${{ steps.detect.outputs.state_sha }}
+        run: |
+          HAS_V1="$(git ls-remote --tags origin "refs/tags/v1.0" | grep -c v1.0 || true)"
+          if [ "${HAS_V1:-0}" -eq 0 ]; then
+            echo "初译期（无 v1.0 tag）：跳过自动 Sync PR（基线锁定，DR-003）"
+            exit 0
+          fi
+          BRANCH="sync/$(date +%F)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          RC=0
+          python3 scripts/sync_docs.py --since "$STATE_SHA" --report || RC=$?
+          if [ "$RC" -ne 0 ] && [ "$RC" -ne 1 ]; then echo "sync_docs failed rc=$RC"; exit 2; fi
+          if [ "$RC" -eq 1 ] && [ -n "$(git status --porcelain -- source zh reports)" ]; then
+            git add source zh reports
+            git commit -m "sync: upstream wiki ${WIKI_HEAD} → 本仓库（自动 Sync PR）"
+            git push origin "$BRANCH"
+            gh pr create --base main --head "$BRANCH" \
+              --title "sync: upstream wiki @${WIKI_HEAD:0:8}" \
+              --body "上游 wiki HEAD 前进至 ${WIKI_HEAD}。增量段落数据见 reports/。翻译新增/变更段落 → validate 全绿 → squash merge（计划 §6）。"
+          else
+            echo "无待翻译变更（rc=$RC）"
+          fi

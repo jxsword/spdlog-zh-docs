@@ -72,4 +72,4 @@
 - agent 输入 = 目标文件 + glossary + style-guide + 上游原文路径；prompt 注入术语表/风格规则/占位符保护/硬性规则（代码块/内联代码/API 名/链接目标不译，中英文间空格，全角标点，语义等价不增不减）；完成后自跑 validate 单文件模式必须全绿。
 - 门禁链 = validate_translation（术语/占位符/结构/断链）+ pytest + mkdocs build 冒烟，全部退出码生效，禁止 `|| true`。
 - 每批次一个 squash commit；批次报告落盘 reports/（含实际 token 消耗）；收尾更新 handoff-latest.md 与 reports/progress.md（自动生成禁手改）。
-- 上下文过半约 55–60%，上下文余量已不足整个 M1（含 pytest/构建/建仓发站），**建议 M1c 开工前开新会话**（启动提示词：docs/新会话启动提示词.md，配合 handoff-latest.md）。
+- 上下文过半或里程碑收尾（M1/M2 各批）主动建议开新会话并给启动提示词（docs/新会话启动提示词.md）。

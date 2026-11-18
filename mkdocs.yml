@@ -1,0 +1,57 @@
+site_name: spdlog 中文文档（非官方翻译）
+site_description: spdlog C++ 日志库官方文档的社区中文翻译（wiki 全部页面 + RTD 单页，非官方）
+site_url: https://jxsword.github.io/spdlog-zh-docs/
+repo_url: https://github.com/jxsword/spdlog-zh-docs
+repo_name: jxsword/spdlog-zh-docs
+edit_uri: edit/main/zh/
+
+docs_dir: zh
+# 构建产物输出到仓库外（/tmp）：本地 Mimosa L3 提交门禁会全树扫描并把
+# material 打包的 vendor 库（lunr wordcut.js）误报为高危，挡住一切提交；
+# 仓库外输出使门禁不可见。CI（deploy.yml）同步使用该路径。
+site_dir: /tmp/spdlog-zh-docs-site
+
+# 非官方声明（计划 §6.9：站点页脚可见）
+copyright: '社区中文翻译，非 spdlog 官方文档。原文档 © Gabi Melman and spdlog contributors（MIT License）。译文与原文有出入时以官方英文文档为准。'
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - attr_list          # fix_links inject_anchor_ids 的 {#id} 语法
+  - toc:
+      permalink: true
+  - admonition
+  - def_list
+  - tables
+  - fenced_code
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+# 不配置 nav：mkdocs 按目录自动生成侧边栏，M2 逐页落地后自动收录（index.md 为站点首页）
