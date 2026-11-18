@@ -115,6 +115,47 @@ spdlog-zh-docs/
 | **M4 按需** | README 翻译（仅用户要求时启动，看板标注） | — |
 
 规模预估：wiki + 单页约 150–400 段（M1 精确回填）；agent 翻译+校对约 3–8M tokens 量级。
+**M1 实测回填（2026-11-19，基线 wiki@15090480 + docs-index@3cd4a76）**：27 wiki 页 + docs-index = 28 文件，
+共 **2219 行 / 461 段**（459 待译 + 2 skipped：_Sidebar/_Footer excluded）；wiki 无附件（source/assets/ 空，镜像机制就位）。
+上游无 `[[..]]` 语法，页间链接为标准 md 裸页名 URL（`[t](Page-Name)`），sync 期统一补 `.md` 规范化（`normalize_links`，DR 无需新增）。
+
+### 7.1 实测页面清单（M1 回填，段数=翻译状态机 pending 段）
+
+| 原始页名 | 入库文件 | 行数 | 段数 | 批次 | 备注 |
+|---|---|---:|---:|---|---|
+| Home | index.md | 30 | 4 | B1 | 作站点 index（R1-7） |
+| QuickStart | QuickStart.md | 228 | 25 | B1 | |
+| CMake | CMake.md | 138 | 37 | B1 | |
+| Custom formatting | Custom-formatting.md | 165 | 24 | B1 | |
+| Sinks | Sinks.md | 278 | 67 | B1 | 最大页 |
+| Creating loggers | Creating-loggers.md | 109 | 29 | B2 | |
+| Logger registry | Logger-registry.md | 37 | 15 | B2 | |
+| Asynchronous logging | Asynchronous-logging.md | 93 | 34 | B2 | |
+| Thread Safety | Thread-Safety.md | 27 | 12 | B2 | |
+| Flush policy | Flush-policy.md | 26 | 13 | B2 | |
+| Error handling | Error-handling.md | 33 | 11 | B2 | |
+| Default logger | Default-logger.md | 11 | 4 | B2 | |
+| FAQ | FAQ.md | 162 | 35 | B2 | |
+| Tweaking | Tweaking.md | 119 | 3 | B3 | 段数少但代码占比高 |
+| Setting up JSON logging with spdlog | Setting-up-JSON-logging-with-spdlog.md | 99 | 12 | B3 | |
+| How to use spdlog in DLLs | How-to-use-spdlog-in-DLLs.md | 94 | 6 | B3 | |
+| Language bindings | Language-bindings.md | 22 | 10 | B3 | |
+| Integrating into Eclipse IDE | Integrating-into-Eclipse-IDE.md | 19 | 8 | B3 | |
+| Makefile-Only | Makefile-Only.md | 16 | 6 | B3 | |
+| Note for adding sinks on the fly | Note-for-adding-sinks-on-the-fly.md | 21 | 8 | B3 | |
+| Preventing child processes from inheriting open log files | Preventing-child-processes-from-inheriting-open-log-files.md | 5 | 2 | B3 | |
+| Preventing undefined thread ids in child processes | Preventing-undefined-thread-ids-in-child-processes.md | 7 | 3 | B3 | |
+| Windows unicode filenames | Windows-unicode-filenames.md | 11 | 4 | B3 | |
+| Reference documentation using Doxygen | Reference-documentation-using-Doxygen.md | 3 | 1 | B3 | |
+| 3.-Custom-formatting) | 3.-Custom-formatting).md | 1 | 1 | B3 | 上游遗留垃圾页（Envoy 日志格式串粘贴事故页），按正文逐字保留翻译 |
+| _Sidebar / _Footer | 同名 | 1+1 | 2 | — | excluded-skipped（计划 §6.1） |
+| docs/index.md (docs2.x) | docs-index.md | 463 | 85 | B2 | RTD 站实质内容（DR-001） |
+| **合计** | 28 文件 | **2219** | **461** | B1 157 / B2 238 / B3 64 | 459 pending + 2 skipped |
+
+### 7.1 补注（2026-11-19）：上游遗留异常页处置
+
+`3.-Custom-formatting).md`（1 行 Envoy 日志格式串，上游粘贴事故页）不列入 excluded 集合（excluded 集合以计划 §6.1 定义为准），
+M2 翻译时该页 1 段按"代码类内容逐字保留"处理并在批次报告登记。
 
 ## 8. 风险与对策
 
