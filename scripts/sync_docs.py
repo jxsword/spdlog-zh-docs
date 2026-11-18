@@ -470,7 +470,7 @@ def sync_init(ctx: SyncContext, repo_url: str, dry_run: bool = False,
             for rel in assets:
                 target = _safe_join(ctx.assets_dir, rel)
                 target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(_safe_join(repo_dir, rel).read_bytes())
+                target.write_bytes(_safe_join(repo, rel).read_bytes())
             if docs_index is not None:
                 (_safe_join(ctx.source_dir, "docs-index.md")).write_text(
                     docs_index["content"], encoding='utf-8')

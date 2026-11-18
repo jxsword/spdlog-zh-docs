@@ -132,14 +132,15 @@ def normalize_links(content: str, slug_map: Dict[str, str]) -> str:
         text_part = match.group(1)   # 完整括号文本部分："[text]" 或 "![alt]"
         url = match.group(2)
         stripped = url.strip()
-        if (stripped.startswith(('http://', 'https://', '/', '#', 'assets/',
-                                 'mailto:', '<'))
-                or stripped.endswith(('.md', '.html'))
-                or not stripped):
+        if stripped.startswith(('http://', 'https://', '/', '#', 'assets/',
+                                'mailto:', '<')) or not stripped:
             return match.group(0)
         if '?' in stripped or '*' in stripped:
             return match.group(0)
         page_part, _, anchor = stripped.partition('#')
+        # .md/.html 目标（含带锚点）原样保留——先拆锚点再判后缀
+        if page_part.endswith(('.md', '.html')):
+            return match.group(0)
         suffix = "#" + anchor if anchor else ""
         # 裸页名链接：URL = slug（去 .md）或原始页名 → 补 .md（可带锚点）
         if page_part + ".md" in slug_fnames:
