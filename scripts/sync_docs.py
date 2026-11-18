@@ -216,6 +216,7 @@ def migrate_segment_dicts(new_segs, old_segments: List[Dict],
         else:
             d['status'] = 'pending'
             added += 1
+        out.append(d)
     removed = len({s['hash'] for s in old_segments} - {seg.hash for seg in new_segs})
     return out, added, removed, kept
 
