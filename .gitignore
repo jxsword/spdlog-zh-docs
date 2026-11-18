@@ -1,0 +1,21 @@
+# ZCode 工具工件（Mimosa 安全扫描 hook 状态，不入库）
+.mimosa/
+
+# 构建产物
+site/
+
+# Python 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 同步/构建临时工作区
+workdir/
+
+# 备份文件（state 写前 .bak 等）
+*.bak
+.backups/
+
+# 系统杂项
+.DS_Store
