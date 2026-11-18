@@ -2,5 +2,5 @@
 mkdocs==1.6.1
 mkdocs-material[recommended]==9.8.1
 jieba==0.42.1
-PyYAML>=6.0
+pyyaml>=6.0
 pytest>=8.0
