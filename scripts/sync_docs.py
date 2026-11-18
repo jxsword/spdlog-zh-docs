@@ -37,8 +37,8 @@ from dataclasses import dataclass, asdict, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-from fix_links import (build_page_slug_map, convert_wiki_links,
-                       rewrite_asset_refs, slugify_page_title)
+from fix_links import (build_page_slug_map, normalize_links,
+                       slugify_page_title)
 from segment_markdown import compute_hash, segment_md
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -289,8 +289,7 @@ def _apply_page(ctx: SyncContext, state: TranslationState, repo_dir: Path,
 
     # A/M/R：读取上游新内容，wiki-link/资产引用规范化后按 hash 迁移旧段落状态
     content = _read_upstream_file(repo_dir, new_path)
-    content = convert_wiki_links(content, slug_map)
-    content = rewrite_asset_refs(content)
+    content = normalize_links(content, slug_map)
 
     old_fstate: Optional[FileState] = None
     display = new_fname
@@ -402,8 +401,7 @@ def sync_init(ctx: SyncContext, repo_url: str, dry_run: bool = False,
             fname = slug_map[title]
             new_fnames.add(fname)
             content = pages[orig_name]
-            content = convert_wiki_links(content, slug_map)
-            content = rewrite_asset_refs(content)
+            content = normalize_links(content, slug_map)
             is_excluded = orig_name in ctx.excluded
             segs = segment_md(content, fname)
             old_fstate = old_state.files.get(fname) if old_state else None
@@ -467,8 +465,7 @@ def sync_init(ctx: SyncContext, repo_url: str, dry_run: bool = False,
             ctx.source_dir.mkdir(parents=True, exist_ok=True)
             for orig_name, content in pages.items():
                 fname = slug_map[Path(orig_name).stem]
-                content = convert_wiki_links(content, slug_map)
-                content = rewrite_asset_refs(content)
+                content = normalize_links(content, slug_map)
                 (_safe_join(ctx.source_dir, fname)).write_text(content, encoding='utf-8')
             for rel in assets:
                 target = _safe_join(ctx.assets_dir, rel)

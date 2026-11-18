@@ -116,21 +116,36 @@ def convert_wiki_links(content: str, slug_map: Dict[str, str],
     return WIKI_LINK_RE.sub(replace, content)
 
 
-def rewrite_asset_refs(content: str) -> str:
-    """相对资产引用改写：![](img.png)/[t](img.png) -> assets/img.png。
+def normalize_links(content: str, slug_map: Dict[str, str]) -> str:
+    """链接规范化（sync 期在分段建 hash 前调用，source/ = 规范化上游快照）：
 
-    仅处理相对路径且非 .md 非 .html 的目标（wiki 附件同步在 source/assets/）；
-    绝对 URL（http/https）、锚点、已是 assets/ 前缀的原样保留（计划 §6.1）。"""
+    1. [[Page]] / [[Page|text]] wiki 语法 → 标准 md 链接（convert_wiki_links）；
+    2. 裸页名链接 [text](Page-Name)（GitHub wiki 实测全库即此形态，无 [[..]]）
+       → [text](Page-Name.md)，锚点一并保留；目标按 slug_map（原始页名或 slug 均可命中）；
+    3. 相对资产引用 [t](img.png) → assets/img.png（wiki 附件同步在 source/assets/）；
+    4. 绝对 URL（http/https 等）、锚点、.md/.html 目标原样保留（计划 §6.1）。"""
+    content = convert_wiki_links(content, slug_map)
+
+    slug_fnames = set(slug_map.values())
+
     def replace(match: re.Match) -> str:
         text, url = match.group(1), match.group(2)
         stripped = url.strip()
         if (stripped.startswith(('http://', 'https://', '/', '#', 'assets/',
                                  'mailto:', '<'))
                 or stripped.endswith(('.md', '.html'))
-                or stripped == ''):
+                or not stripped):
             return match.group(0)
         if '?' in stripped or '*' in stripped:
             return match.group(0)
+        page_part, _, anchor = stripped.partition('#')
+        # 裸页名链接：URL = slug（去 .md）或原始页名 → 补 .md（可带锚点）
+        if page_part + ".md" in slug_fnames:
+            return f"[{text}]({page_part}.md" + (f"#{anchor}" if anchor else "") + ")"
+        if page_part in slug_map:
+            fname = slug_map[page_part]
+            return f"[{text}]({fname}" + (f"#{anchor}" if anchor else "") + ")"
+        # 其余相对目标视为附件引用
         return f"[{text}](assets/{stripped})"
 
     return re.sub(r'(!\[[^\]]*\]|\[[^\]]+)\]\(([^)\s]+)\)', replace, content)
@@ -211,10 +226,11 @@ def inject_anchor_ids(content: str, anchor_map: Dict[str, str]) -> str:
 
 
 def process_file(target_path: Path, anchor_map: Dict[str, str]):
-    """Process a single translated file to fix links and inject anchors."""
+    """Process a single translated file to fix links and inject anchors.
+
+    zh 侧不重写资产/页链接（sync 期已在 source 规范化，译文继承），仅锚点重映射。"""
     content = target_path.read_text(encoding='utf-8')
 
-    content = rewrite_asset_refs(content)
     content = fix_relative_links(content, anchor_map)
     content = inject_anchor_ids(content, anchor_map)
 
