@@ -90,6 +90,7 @@ class SyncContext:
     archive_dir: Path
     state_file: Path
     excluded: frozenset = field(default_factory=lambda: frozenset(EXCLUDED_FROM_TRANSLATION))
+    report_dir: Optional[Path] = None   # sync 报告目录；None → 仓库 reports/（测试须注入隔离目录）
 
     @property
     def assets_dir(self) -> Path:
@@ -487,8 +488,6 @@ def sync_init(ctx: SyncContext, repo_url: str, dry_run: bool = False,
             "assets": assets,
             "changes": [asdict(c) for c in changes],
         }
-        if not dry_run:
-            res["report"] = write_report(res)
         return res
 
 
@@ -563,8 +562,6 @@ def sync_since(ctx: SyncContext, repo_url: str, since_sha: str,
             "has_changes": bool(changes),
             "changes": [asdict(c) for c in changes],
         }
-        if not dry_run:
-            res["report"] = write_report(res)
         return res
 
 
@@ -592,9 +589,12 @@ def parse_name_status(raw: str) -> List[Tuple[str, str, str]]:
     return out
 
 
-def write_report(res: Dict) -> str:
-    """生成 sync 报告 reports/sync-<date>-<sha8>.md（计划 R2 范式）。"""
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
+def write_report(res: Dict, report_dir: Optional[Path] = None) -> str:
+    """生成 sync 报告 reports/sync-<date>-<sha8>.md（计划 R2 范式）。
+
+    仅在 CLI --report 时调用；目录可注入（测试隔离），缺省仓库 reports/。"""
+    report_dir = Path(report_dir or REPORT_DIR)
+    report_dir.mkdir(parents=True, exist_ok=True)
     date = time.strftime("%Y-%m-%d")
     sha8 = res["commit"][:8]
     path = REPORT_DIR / ("sync-" + date + "-" + sha8 + ".md")
@@ -680,7 +680,7 @@ def main(argv: Optional[List[str]] = None):
             res = sync_init(ctx, args.repo, dry_run=args.dry_run,
                             skip_docs_index=args.skip_docs_index)
         if args.report:
-            res["report"] = write_report(res)
+            res["report"] = write_report(res, ctx.report_dir)
         print(json.dumps(res, ensure_ascii=False))
     except Exception as e:
         logger.error("Failed: %s", e)

@@ -81,6 +81,7 @@ def make_ctx(tmp_path) -> SyncContext:
         zh_dir=tmp_path / "zh",
         archive_dir=tmp_path / "archive",
         state_file=tmp_path / ".translation-state.json",
+        report_dir=tmp_path / "reports",
     )
 
 
