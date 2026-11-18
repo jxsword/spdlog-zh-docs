@@ -221,5 +221,61 @@ class TestLoadBanned:
     def test_no_banned_key(self, tmp_path, monkeypatch):
         g = tmp_path / "glossary.yml"
         g.write_text("terms: []\n", encoding="utf-8")
-        monkeypatch.setattr(vt, "GLOSSARY_FILE", g)
+        monkeypatch.setattr(vt, "GLOSSARY_FILE", tmp_path / "none.yml")
         assert vt.load_banned() == []
+
+
+# ---------- B1 门禁修复回归（2026-11-19，Custom-formatting.md 实测暴露） ----------
+
+class TestInlineMultiBacktickSpans:
+    """行内 N≥2 反引号 span（CommonMark）：规范化后源/译对称，span 间连词可译。"""
+
+    def test_normalize_triple_backtick_spans(self):
+        src = "implement ```clone()``` and ```format(...)``` methods"
+        out = vt.normalize_inline_spans(src)
+        assert out == "implement `clone()` and `format(...)` methods"
+
+    def test_prose_between_spans_translatable_no_multiset_error(self, tmp_path):
+        src = tmp_path / "s.md"; tgt = tmp_path / "t.md"
+        src.write_text("use ```clone()``` and ```format(...)``` here", encoding="utf-8")
+        tgt.write_text("在此使用 ```clone()``` 和 ```format(...)```。", encoding="utf-8")
+        result = vt.validate_file(src, tgt, {})
+        assert not any("Inline code multiset" in e for e in result["errors"])
+
+    def test_modified_span_content_still_caught(self, tmp_path):
+        src = tmp_path / "s.md"; tgt = tmp_path / "t.md"
+        src.write_text("use ```clone()``` here", encoding="utf-8")
+        tgt.write_text("在此使用 ```cloneX()```。", encoding="utf-8")
+        result = vt.validate_file(src, tgt, {})
+        assert any("Inline code multiset" in e for e in result["errors"])
+
+    def test_fenced_block_open_line_not_normalized(self):
+        # 行首围栏（``` 后同行无闭合）不得被规范化改写
+        src = "```cpp\nint x;\n```\n"
+        assert vt.normalize_inline_spans(src) == src
+
+
+class TestSourceUnbalancedTagExemption:
+    """源文自带的未配对伪标签（<my_formatter_flag>）原样保留不算译文缺陷。"""
+
+    def test_source_pseudo_tag_preserved_passes(self, tmp_path):
+        src = tmp_path / "s.md"; tgt = tmp_path / "t.md"
+        src.write_text("bound to a <my_formatter_flag> instance", encoding="utf-8")
+        tgt.write_text("绑定到一个 <my_formatter_flag> 实例", encoding="utf-8")
+        result = vt.validate_file(src, tgt, {})
+        assert not any("unbalanced" in e for e in result["errors"])
+
+    def test_breaking_source_balanced_tag_still_caught(self, tmp_path):
+        src = tmp_path / "s.md"; tgt = tmp_path / "t.md"
+        src.write_text("see <b>bold</b> text and <my_formatter_flag>", encoding="utf-8")
+        tgt.write_text("参见 </b>加粗<b> 文本和 <my_formatter_flag>", encoding="utf-8")
+        result = vt.validate_file(src, tgt, {})
+        assert any("unbalanced" in e for e in result["errors"])
+
+    def test_unbalanced_tag_count_mismatch_still_caught(self, tmp_path):
+        # L1 类型计数不受豁免影响：译文多出/少掉伪标签仍报错
+        src = tmp_path / "s.md"; tgt = tmp_path / "t.md"
+        src.write_text("a <my_formatter_flag> instance", encoding="utf-8")
+        tgt.write_text("一个实例", encoding="utf-8")
+        result = vt.validate_file(src, tgt, {})
+        assert any("HTML tag type counts mismatch" in e for e in result["errors"])

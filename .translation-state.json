@@ -504,9 +504,11 @@
           "line_end": 1,
           "metadata": {
             "level": 3,
-            "title": "CMake"
+            "title": "CMake",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -517,9 +519,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": "CMake"
+            "section": "CMake",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-1",
@@ -530,9 +534,11 @@
           "line_start": 4,
           "line_end": 9,
           "metadata": {
-            "section": "CMake"
+            "section": "CMake",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h3-1",
@@ -544,9 +550,11 @@
           "line_end": 11,
           "metadata": {
             "level": 3,
-            "title": "Generate"
+            "title": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -557,9 +565,11 @@
           "line_start": 13,
           "line_end": 13,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-1",
@@ -570,9 +580,11 @@
           "line_start": 14,
           "line_end": 18,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-2",
@@ -583,9 +595,11 @@
           "line_start": 20,
           "line_end": 20,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-3",
@@ -596,9 +610,11 @@
           "line_start": 21,
           "line_end": 24,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-4",
@@ -609,9 +625,11 @@
           "line_start": 26,
           "line_end": 26,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-5",
@@ -622,9 +640,11 @@
           "line_start": 27,
           "line_end": 29,
           "metadata": {
-            "section": "Generate"
+            "section": "Generate",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h3-2",
@@ -636,9 +656,11 @@
           "line_end": 31,
           "metadata": {
             "level": 3,
-            "title": "Build/test"
+            "title": "Build/test",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -649,9 +671,11 @@
           "line_start": 33,
           "line_end": 33,
           "metadata": {
-            "section": "Build/test"
+            "section": "Build/test",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-1",
@@ -662,9 +686,11 @@
           "line_start": 34,
           "line_end": 37,
           "metadata": {
-            "section": "Build/test"
+            "section": "Build/test",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h3-3",
@@ -676,9 +702,11 @@
           "line_end": 39,
           "metadata": {
             "level": 3,
-            "title": "Install"
+            "title": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -689,9 +717,11 @@
           "line_start": 41,
           "line_end": 41,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-1",
@@ -702,9 +732,11 @@
           "line_start": 43,
           "line_end": 46,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-2",
@@ -715,9 +747,11 @@
           "line_start": 48,
           "line_end": 48,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-3",
@@ -728,9 +762,11 @@
           "line_start": 49,
           "line_end": 52,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h3-4",
@@ -742,9 +778,11 @@
           "line_end": 54,
           "metadata": {
             "level": 3,
-            "title": "Cross-compiling for Android with CMake 3.7"
+            "title": "Cross-compiling for Android with CMake 3.7",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -755,9 +793,11 @@
           "line_start": 56,
           "line_end": 56,
           "metadata": {
-            "section": "Cross-compiling for Android with CMake 3.7"
+            "section": "Cross-compiling for Android with CMake 3.7",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-1",
@@ -768,9 +808,11 @@
           "line_start": 58,
           "line_end": 58,
           "metadata": {
-            "section": "Cross-compiling for Android with CMake 3.7"
+            "section": "Cross-compiling for Android with CMake 3.7",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-2",
@@ -781,9 +823,11 @@
           "line_start": 59,
           "line_end": 70,
           "metadata": {
-            "section": "Cross-compiling for Android with CMake 3.7"
+            "section": "Cross-compiling for Android with CMake 3.7",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-3",
@@ -794,9 +838,11 @@
           "line_start": 72,
           "line_end": 72,
           "metadata": {
-            "section": "Cross-compiling for Android with CMake 3.7"
+            "section": "Cross-compiling for Android with CMake 3.7",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h2-5",
@@ -808,9 +854,11 @@
           "line_end": 74,
           "metadata": {
             "level": 2,
-            "title": "Use as static library with ExternalProject_Add as git submodule"
+            "title": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -821,9 +869,11 @@
           "line_start": 76,
           "line_end": 76,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-1",
@@ -834,9 +884,11 @@
           "line_start": 78,
           "line_end": 84,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-2",
@@ -847,9 +899,11 @@
           "line_start": 86,
           "line_end": 97,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-3",
@@ -860,9 +914,11 @@
           "line_start": 99,
           "line_end": 99,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-4",
@@ -873,9 +929,11 @@
           "line_start": 101,
           "line_end": 103,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-5",
@@ -886,9 +944,11 @@
           "line_start": 105,
           "line_end": 105,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-6",
@@ -899,9 +959,11 @@
           "line_start": 107,
           "line_end": 109,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-7",
@@ -912,9 +974,11 @@
           "line_start": 111,
           "line_end": 111,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-8",
@@ -925,9 +989,11 @@
           "line_start": 113,
           "line_end": 115,
           "metadata": {
-            "section": "Use as static library with ExternalProject_Add as git submodule"
+            "section": "Use as static library with ExternalProject_Add as git submodule",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-h2-6",
@@ -939,9 +1005,11 @@
           "line_end": 117,
           "metadata": {
             "level": 2,
-            "title": "Using spdlog in a shared library"
+            "title": "Using spdlog in a shared library",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-0",
@@ -952,9 +1020,11 @@
           "line_start": 119,
           "line_end": 119,
           "metadata": {
-            "section": "Using spdlog in a shared library"
+            "section": "Using spdlog in a shared library",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-p-1",
@@ -965,9 +1035,11 @@
           "line_start": 121,
           "line_end": 121,
           "metadata": {
-            "section": "Using spdlog in a shared library"
+            "section": "Using spdlog in a shared library",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "CMake.md-code-2",
@@ -978,9 +1050,11 @@
           "line_start": 122,
           "line_end": 138,
           "metadata": {
-            "section": "Using spdlog in a shared library"
+            "section": "Using spdlog in a shared library",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -1395,9 +1469,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-1",
@@ -1408,9 +1484,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-2",
@@ -1421,9 +1499,11 @@
           "line_start": 5,
           "line_end": 9,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-3",
@@ -1434,9 +1514,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-4",
@@ -1447,9 +1529,11 @@
           "line_start": 11,
           "line_end": 14,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-5",
@@ -1460,9 +1544,11 @@
           "line_start": 15,
           "line_end": 15,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-6",
@@ -1473,9 +1559,11 @@
           "line_start": 16,
           "line_end": 20,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-7",
@@ -1486,9 +1574,11 @@
           "line_start": 21,
           "line_end": 21,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-8",
@@ -1499,9 +1589,11 @@
           "line_start": 22,
           "line_end": 24,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-9",
@@ -1512,9 +1604,11 @@
           "line_start": 25,
           "line_end": 25,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-10",
@@ -1525,9 +1619,11 @@
           "line_start": 26,
           "line_end": 29,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-11",
@@ -1538,9 +1634,11 @@
           "line_start": 30,
           "line_end": 31,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-12",
@@ -1551,9 +1649,11 @@
           "line_start": 32,
           "line_end": 112,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-h1-0",
@@ -1565,9 +1665,11 @@
           "line_end": 113,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/pattern_formatter.h\""
+            "title": "include \"spdlog/pattern_formatter.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-0",
@@ -1578,9 +1680,11 @@
           "line_start": 114,
           "line_end": 121,
           "metadata": {
-            "section": "include \"spdlog/pattern_formatter.h\""
+            "section": "include \"spdlog/pattern_formatter.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-1",
@@ -1591,9 +1695,11 @@
           "line_start": 123,
           "line_end": 127,
           "metadata": {
-            "section": "include \"spdlog/pattern_formatter.h\""
+            "section": "include \"spdlog/pattern_formatter.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-2",
@@ -1604,9 +1710,11 @@
           "line_start": 129,
           "line_end": 134,
           "metadata": {
-            "section": "include \"spdlog/pattern_formatter.h\""
+            "section": "include \"spdlog/pattern_formatter.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-3",
@@ -1617,9 +1725,11 @@
           "line_start": 136,
           "line_end": 143,
           "metadata": {
-            "section": "include \"spdlog/pattern_formatter.h\""
+            "section": "include \"spdlog/pattern_formatter.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-h1-1",
@@ -1631,9 +1741,11 @@
           "line_end": 144,
           "metadata": {
             "level": 1,
-            "title": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "title": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-0",
@@ -1644,9 +1756,11 @@
           "line_start": 145,
           "line_end": 149,
           "metadata": {
-            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-1",
@@ -1657,9 +1771,11 @@
           "line_start": 150,
           "line_end": 155,
           "metadata": {
-            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-2",
@@ -1670,9 +1786,11 @@
           "line_start": 156,
           "line_end": 160,
           "metadata": {
-            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-p-3",
@@ -1683,9 +1801,11 @@
           "line_start": 161,
           "line_end": 161,
           "metadata": {
-            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Custom-formatting.md-code-4",
@@ -1696,9 +1816,11 @@
           "line_start": 162,
           "line_end": 166,
           "metadata": {
-            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE"
+            "section": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -2591,9 +2713,11 @@
           "line_end": 1,
           "metadata": {
             "level": 1,
-            "title": "Home"
+            "title": "Home",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "index.md-p-0",
@@ -2604,9 +2728,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": "Home"
+            "section": "Home",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "index.md-p-1",
@@ -2617,9 +2743,11 @@
           "line_start": 5,
           "line_end": 26,
           "metadata": {
-            "section": "Home"
+            "section": "Home",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "index.md-p-2",
@@ -2630,9 +2758,11 @@
           "line_start": 28,
           "line_end": 28,
           "metadata": {
-            "section": "Home"
+            "section": "Home",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3498,9 +3628,11 @@
           "line_start": 1,
           "line_end": 8,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-1",
@@ -3511,9 +3643,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-2",
@@ -3524,9 +3658,11 @@
           "line_start": 11,
           "line_end": 13,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-3",
@@ -3537,9 +3673,11 @@
           "line_start": 14,
           "line_end": 14,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-4",
@@ -3550,9 +3688,11 @@
           "line_start": 16,
           "line_end": 16,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-5",
@@ -3563,9 +3703,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-0",
@@ -3577,9 +3719,11 @@
           "line_end": 21,
           "metadata": {
             "level": 4,
-            "title": "Basic example"
+            "title": "Basic example",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3590,9 +3734,11 @@
           "line_start": 22,
           "line_end": 43,
           "metadata": {
-            "section": "Basic example"
+            "section": "Basic example",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-1",
@@ -3604,9 +3750,11 @@
           "line_end": 45,
           "metadata": {
             "level": 4,
-            "title": "Create an asynchronous logger using factory method"
+            "title": "Create an asynchronous logger using factory method",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3617,9 +3765,11 @@
           "line_start": 46,
           "line_end": 69,
           "metadata": {
-            "section": "Create an asynchronous logger using factory method"
+            "section": "Create an asynchronous logger using factory method",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-2",
@@ -3631,9 +3781,11 @@
           "line_end": 71,
           "metadata": {
             "level": 4,
-            "title": "Create an asynchronous logger and change thread pool settings"
+            "title": "Create an asynchronous logger and change thread pool settings",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3644,9 +3796,11 @@
           "line_start": 72,
           "line_end": 93,
           "metadata": {
-            "section": "Create an asynchronous logger and change thread pool settings"
+            "section": "Create an asynchronous logger and change thread pool settings",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-3",
@@ -3658,9 +3812,11 @@
           "line_end": 96,
           "metadata": {
             "level": 4,
-            "title": "Create multiple loggers that share the same file (sink) aka categories"
+            "title": "Create multiple loggers that share the same file (sink) aka categories",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3671,9 +3827,11 @@
           "line_start": 97,
           "line_end": 122,
           "metadata": {
-            "section": "Create multiple loggers that share the same file (sink) aka categories"
+            "section": "Create multiple loggers that share the same file (sink) aka categories",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-4",
@@ -3685,9 +3843,11 @@
           "line_end": 124,
           "metadata": {
             "level": 4,
-            "title": "Create a logger with multiple sinks, each sink with its own formatting and log level"
+            "title": "Create a logger with multiple sinks, each sink with its own formatting and log level",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3698,9 +3858,11 @@
           "line_start": 126,
           "line_end": 162,
           "metadata": {
-            "section": "Create a logger with multiple sinks, each sink with its own formatting and log level"
+            "section": "Create a logger with multiple sinks, each sink with its own formatting and log level",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-5",
@@ -3712,9 +3874,11 @@
           "line_end": 164,
           "metadata": {
             "level": 4,
-            "title": "Logging macros"
+            "title": "Logging macros",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-0",
@@ -3725,9 +3889,11 @@
           "line_start": 165,
           "line_end": 165,
           "metadata": {
-            "section": "Logging macros"
+            "section": "Logging macros",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-1",
@@ -3738,9 +3904,11 @@
           "line_start": 167,
           "line_end": 167,
           "metadata": {
-            "section": "Logging macros"
+            "section": "Logging macros",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-2",
@@ -3751,9 +3919,11 @@
           "line_start": 168,
           "line_end": 176,
           "metadata": {
-            "section": "Logging macros"
+            "section": "Logging macros",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-3",
@@ -3764,9 +3934,11 @@
           "line_start": 178,
           "line_end": 178,
           "metadata": {
-            "section": "Logging macros"
+            "section": "Logging macros",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-h4-6",
@@ -3778,9 +3950,11 @@
           "line_end": 180,
           "metadata": {
             "level": 4,
-            "title": "Log user-defined objects"
+            "title": "Log user-defined objects",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-0",
@@ -3791,9 +3965,11 @@
           "line_start": 181,
           "line_end": 202,
           "metadata": {
-            "section": "Log user-defined objects"
+            "section": "Log user-defined objects",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-p-1",
@@ -3804,9 +3980,11 @@
           "line_start": 203,
           "line_end": 203,
           "metadata": {
-            "section": "Log user-defined objects"
+            "section": "Log user-defined objects",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "QuickStart.md-code-2",
@@ -3817,9 +3995,11 @@
           "line_start": 204,
           "line_end": 228,
           "metadata": {
-            "section": "Log user-defined objects"
+            "section": "Log user-defined objects",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -4029,9 +4209,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-1",
@@ -4042,9 +4224,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-2",
@@ -4055,9 +4239,11 @@
           "line_start": 6,
           "line_end": 7,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-h3-0",
@@ -4069,9 +4255,11 @@
           "line_end": 10,
           "metadata": {
             "level": 3,
-            "title": "Available Sinks"
+            "title": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-0",
@@ -4082,9 +4270,11 @@
           "line_start": 12,
           "line_end": 12,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-1",
@@ -4095,9 +4285,11 @@
           "line_start": 15,
           "line_end": 16,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-2",
@@ -4108,9 +4300,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-3",
@@ -4121,9 +4315,11 @@
           "line_start": 20,
           "line_end": 20,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-4",
@@ -4134,9 +4330,11 @@
           "line_start": 22,
           "line_end": 27,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-5",
@@ -4147,9 +4345,11 @@
           "line_start": 28,
           "line_end": 28,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-6",
@@ -4160,9 +4360,11 @@
           "line_start": 29,
           "line_end": 34,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-7",
@@ -4173,9 +4375,11 @@
           "line_start": 36,
           "line_end": 37,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-8",
@@ -4186,9 +4390,11 @@
           "line_start": 39,
           "line_end": 39,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-9",
@@ -4199,9 +4405,11 @@
           "line_start": 41,
           "line_end": 45,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-10",
@@ -4212,9 +4420,11 @@
           "line_start": 46,
           "line_end": 46,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-11",
@@ -4225,9 +4435,11 @@
           "line_start": 48,
           "line_end": 48,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-12",
@@ -4238,9 +4450,11 @@
           "line_start": 50,
           "line_end": 51,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-13",
@@ -4251,9 +4465,11 @@
           "line_start": 53,
           "line_end": 54,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-14",
@@ -4264,9 +4480,11 @@
           "line_start": 56,
           "line_end": 56,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-15",
@@ -4277,9 +4495,11 @@
           "line_start": 58,
           "line_end": 58,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-16",
@@ -4290,9 +4510,11 @@
           "line_start": 59,
           "line_end": 63,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-17",
@@ -4303,9 +4525,11 @@
           "line_start": 64,
           "line_end": 64,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-18",
@@ -4316,9 +4540,11 @@
           "line_start": 66,
           "line_end": 67,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-19",
@@ -4329,9 +4555,11 @@
           "line_start": 69,
           "line_end": 74,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-20",
@@ -4342,9 +4570,11 @@
           "line_start": 76,
           "line_end": 76,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-21",
@@ -4355,9 +4585,11 @@
           "line_start": 78,
           "line_end": 83,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-22",
@@ -4368,9 +4600,11 @@
           "line_start": 85,
           "line_end": 85,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-23",
@@ -4381,9 +4615,11 @@
           "line_start": 86,
           "line_end": 88,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-24",
@@ -4394,9 +4630,11 @@
           "line_start": 90,
           "line_end": 91,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-25",
@@ -4407,9 +4645,11 @@
           "line_start": 93,
           "line_end": 99,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-26",
@@ -4420,9 +4660,11 @@
           "line_start": 101,
           "line_end": 102,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-27",
@@ -4433,9 +4675,11 @@
           "line_start": 104,
           "line_end": 104,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-28",
@@ -4446,9 +4690,11 @@
           "line_start": 106,
           "line_end": 110,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-29",
@@ -4459,9 +4705,11 @@
           "line_start": 112,
           "line_end": 113,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-30",
@@ -4472,9 +4720,11 @@
           "line_start": 115,
           "line_end": 115,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-31",
@@ -4485,9 +4735,11 @@
           "line_start": 116,
           "line_end": 121,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-32",
@@ -4498,9 +4750,11 @@
           "line_start": 123,
           "line_end": 123,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-33",
@@ -4511,9 +4765,11 @@
           "line_start": 125,
           "line_end": 125,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-34",
@@ -4524,9 +4780,11 @@
           "line_start": 126,
           "line_end": 131,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-35",
@@ -4537,9 +4795,11 @@
           "line_start": 133,
           "line_end": 134,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-36",
@@ -4550,9 +4810,11 @@
           "line_start": 136,
           "line_end": 136,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-37",
@@ -4563,9 +4825,11 @@
           "line_start": 138,
           "line_end": 148,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-38",
@@ -4576,9 +4840,11 @@
           "line_start": 150,
           "line_end": 152,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-39",
@@ -4589,9 +4855,11 @@
           "line_start": 154,
           "line_end": 158,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-40",
@@ -4602,9 +4870,11 @@
           "line_start": 160,
           "line_end": 163,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-41",
@@ -4615,9 +4885,11 @@
           "line_start": 165,
           "line_end": 165,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-42",
@@ -4628,9 +4900,11 @@
           "line_start": 166,
           "line_end": 176,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-43",
@@ -4641,9 +4915,11 @@
           "line_start": 177,
           "line_end": 177,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-44",
@@ -4654,9 +4930,11 @@
           "line_start": 178,
           "line_end": 182,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-45",
@@ -4667,9 +4945,11 @@
           "line_start": 184,
           "line_end": 185,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-46",
@@ -4680,9 +4960,11 @@
           "line_start": 187,
           "line_end": 188,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-47",
@@ -4693,9 +4975,11 @@
           "line_start": 190,
           "line_end": 190,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-48",
@@ -4706,9 +4990,11 @@
           "line_start": 191,
           "line_end": 210,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-49",
@@ -4719,9 +5005,11 @@
           "line_start": 211,
           "line_end": 212,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-50",
@@ -4732,9 +5020,11 @@
           "line_start": 214,
           "line_end": 214,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-51",
@@ -4745,9 +5035,11 @@
           "line_start": 216,
           "line_end": 216,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-52",
@@ -4758,9 +5050,11 @@
           "line_start": 217,
           "line_end": 222,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-img-53",
@@ -4771,9 +5065,11 @@
           "line_start": 223,
           "line_end": 223,
           "metadata": {
-            "section": "Available Sinks"
+            "section": "Available Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-h3-1",
@@ -4785,9 +5081,11 @@
           "line_end": 226,
           "metadata": {
             "level": 3,
-            "title": "Implementing your own sink"
+            "title": "Implementing your own sink",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-0",
@@ -4798,9 +5096,11 @@
           "line_start": 228,
           "line_end": 228,
           "metadata": {
-            "section": "Implementing your own sink"
+            "section": "Implementing your own sink",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-1",
@@ -4811,9 +5111,11 @@
           "line_start": 230,
           "line_end": 231,
           "metadata": {
-            "section": "Implementing your own sink"
+            "section": "Implementing your own sink",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-2",
@@ -4824,9 +5126,11 @@
           "line_start": 233,
           "line_end": 233,
           "metadata": {
-            "section": "Implementing your own sink"
+            "section": "Implementing your own sink",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-3",
@@ -4837,9 +5141,11 @@
           "line_start": 234,
           "line_end": 264,
           "metadata": {
-            "section": "Implementing your own sink"
+            "section": "Implementing your own sink",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-h3-2",
@@ -4851,9 +5157,11 @@
           "line_end": 266,
           "metadata": {
             "level": 3,
-            "title": "Adding sinks to the logger after creation:"
+            "title": "Adding sinks to the logger after creation:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-p-0",
@@ -4864,9 +5172,11 @@
           "line_start": 267,
           "line_end": 267,
           "metadata": {
-            "section": "Adding sinks to the logger after creation:"
+            "section": "Adding sinks to the logger after creation:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-1",
@@ -4877,9 +5187,11 @@
           "line_start": 269,
           "line_end": 274,
           "metadata": {
-            "section": "Adding sinks to the logger after creation:"
+            "section": "Adding sinks to the logger after creation:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Sinks.md-code-2",
@@ -4890,9 +5202,11 @@
           "line_start": 276,
           "line_end": 278,
           "metadata": {
-            "section": "Adding sinks to the logger after creation:"
+            "section": "Adding sinks to the logger after creation:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,

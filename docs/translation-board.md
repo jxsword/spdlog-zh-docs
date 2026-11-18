@@ -1,6 +1,6 @@
 # 翻译任务看板（translation-board）
 
-> 状态快照：2026-11-19 ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（459 pending + 2 skipped）
+> 状态快照：2026-11-19（B1 后） ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（157 translated + 302 pending + 2 skipped）
 > 任务粒度 = 1 个 zh 页（大页按段落区间拆子任务时**同页串行**）；agent 并发上限 2（同页串行、跨页并行）。
 > 批次结构对齐计划 §7.1 实测清单；每批完成后更新本表并落批次报告 reports/batch-*.md。
 
@@ -9,21 +9,21 @@
 | 批次 | 范围 | 段数 | 状态 |
 |---|---|---:|---|
 | M1 基建 | 同步管线 + 脚本/测试/门禁/站点/CI | 0 | **已完成**（2026-11-19，验收证据见 [handoff-latest.md](handoff-latest.md)） |
-| B1 核心 | 5 页：index(Home)/QuickStart/CMake/Custom-formatting/Sinks | 157 | pending |
+| B1 核心 | 5 页：index(Home)/QuickStart/CMake/Custom-formatting/Sinks | 157 | **已完成，待验收**（2026-11-19，证据见 [batch-B1.md](../reports/batch-B1.md)） |
 | B2 主体 | 8 页 + docs-index | 238 | pending |
 | B3 收尾 | 12 小页 | 64 | pending |
 | M3 | 全量 sweep + tag v1.0 + 增量演练 | — | pending |
 | M4 README 翻译 | **全部任务结束后按需翻译**（仅用户要求时启动，DR-001） | — | 按需 |
 
-## B1 核心（段数 157）
+## B1 核心（段数 157）——已完成
 
 | 任务 ID | 页面 | 段数 | 状态 | 备注 |
 |---|---|---:|---|---|
-| T-001 | index.md（Home） | 4 | pending | 站点 index；占位站阶段为中文项目占位页，B1 时被译文替换 |
-| T-002 | QuickStart.md | 25 | pending | |
-| T-003 | CMake.md | 37 | pending | |
-| T-004 | Custom-formatting.md | 24 | pending | |
-| T-005 | Sinks.md | 67 | pending | 最大页（67 段），可按段落区间拆 2–3 个串行子任务 |
+| T-001 | index.md（Home） | 4 | ✅ 已完成 | 站点 index；占位页已被译文替换 |
+| T-002 | QuickStart.md | 25 | ✅ 已完成 | |
+| T-003 | CMake.md | 37 | ✅ 已完成 | 初翻 prompt 损坏事故已修复（batch-B1 §4.1） |
+| T-004 | Custom-formatting.md | 24 | ✅ 已完成 | 触发 validate 门禁 2 处假阳性修复（batch-B1 §4.3） |
+| T-005 | Sinks.md | 67 | ✅ 已完成 | 单 agent 完成（未拆分）；派发 prompt 损坏事故下 agent 自推断完成，编排方独立复验（batch-B1 §4.2） |
 
 ## B2 主体（段数 238）
 
@@ -56,7 +56,7 @@
 | B3-11 | Reference-documentation-using-Doxygen.md | 1 | pending | |
 | B3-12 | 3.-Custom-formatting).md | 1 | pending | 上游遗留垃圾页（Envoy 日志格式串粘贴事故页）：1 段按"代码类内容逐字保留"处理并登记批次报告 |
 
-## 已完成（M1 基建）
+## 已完成（M1 基建 + B1 核心）
 
 - [x] M0 init commit（计划/DR/启动提示词入库，Decision: DR-001..003）
 - [x] M1a wiki ls-remote 复确认（HEAD 15090480，直连可达）
@@ -66,6 +66,8 @@
 - [x] M1e mkdocs + 3 workflow + jieba 中文检索实测 PASS（10/10 token）
 - [x] M1f gh repo create + push + Pages 占位站（HTTP 200）+ 3 workflow CI 冒烟全绿
 - [x] M1g handoff + progress + 验收汇报（等用户确认进 M2）
+- [x] B1 五页 157 段翻译 + 抽检 94 段修复 5 处 + 门禁修复（validate 2 处假阳性 + 7 回归测试）
+      + check_alignment/mark_translated 新增工具 + batch-B1 报告（token 实测 3,846,475）
 
 ## 硬性纪律（每批适用）
 

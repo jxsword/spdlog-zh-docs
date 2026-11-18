@@ -83,8 +83,22 @@ def extract_code_blocks(content: str) -> List[str]:
     return re.findall(pattern, content)
 
 
+# CommonMark 允许 N≥2 个反引号作为行内代码界定符（如 ```clone()```）。
+# 单反引号朴素正则会把两个 ```span``` 之间的残余反引号虚构成假 span
+# （如 "` and `"），译文将 span 间的连词正常翻译后即误报 multiset 不一致。
+# 因此先把"同一行内闭合"的多反引号行内 span 规范化为单反引号形式，
+# 源/译两侧对称应用。行首围栏（``` 后同行无闭合）不受影响。
+MULTI_BACKTICK_INLINE_RE = re.compile(r'(?<!`)```([^`\n]+?)```(?!`)')
+
+
+def normalize_inline_spans(content: str) -> str:
+    """Normalize inline multi-backtick code spans (```x```) to single-backtick form."""
+    return MULTI_BACKTICK_INLINE_RE.sub(r'`\1`', content)
+
+
 def extract_inline_code(content: str) -> List[str]:
     """Extract all inline code from markdown."""
+    content = normalize_inline_spans(content)
     pattern = r'`[^`\n]+`'
     return re.findall(pattern, content)
 
@@ -136,6 +150,7 @@ def strip_code(content: str) -> str:
       content (e.g. grammar blocks in syntax.md) and must survive stripping.
     Prevents tokens like <your-target> or `src/format.cc` from triggering
     HTML-tag / glossary false positives."""
+    content = normalize_inline_spans(content)
     content = re.sub(r'```[\s\S]*?```', ' ', content)
     content = re.sub(r'`[^`\n]+`', ' ', content)
     lines = content.split('\n')
@@ -192,6 +207,24 @@ def check_pairing(tags: List[str]) -> bool:
         else:
             stack.append(name)
     return not stack
+
+
+def unbalanced_tag_names(tags: List[str]) -> set:
+    """Names whose open/close counts differ on this side — source-inherent
+    pseudo-tags like <my_formatter_flag> (prose, no closing tag) have no
+    well-formed pairing to begin with."""
+    opens, closes = {}, {}
+    for t in tags:
+        norm = normalize_tag(t)
+        if norm is None:
+            continue
+        name, closing = norm
+        if closing:
+            closes[name] = closes.get(name, 0) + 1
+        else:
+            opens[name] = opens.get(name, 0) + 1
+    return {n for n in set(opens) | set(closes)
+            if opens.get(n, 0) != closes.get(n, 0)}
 
 
 def validate_file(source_path: Path, target_path: Path, glossary: Dict[str, str],
@@ -257,7 +290,15 @@ def validate_file(source_path: Path, target_path: Path, glossary: Dict[str, str]
                 diff_parts.append(f"<{key[0]} {kind}>:{s}->{t}")
         errors.append("HTML tag type counts mismatch: " + ", ".join(diff_parts))
     if target_html and not check_pairing(target_html):
-        errors.append("Translated HTML tags are unbalanced or improperly nested")
+        # 配对检查豁免源文本就失衡的标签名（如 Custom-formatting.md 正文中的
+        # <my_formatter_flag> 伪标签，无闭合标签可言）：译文原样保留不算缺陷，
+        # 译文自己弄断源文本已配对的标签仍会被捕获。
+        src_unbalanced = unbalanced_tag_names(source_html)
+        tgt_suspect = [t for t in target_html
+                       if normalize_tag(t) is not None
+                       and normalize_tag(t)[0] not in src_unbalanced]
+        if tgt_suspect and not check_pairing(tgt_suspect):
+            errors.append("Translated HTML tags are unbalanced or improperly nested")
     
     # 4. URL integrity
     source_urls = extract_urls(source_content)
