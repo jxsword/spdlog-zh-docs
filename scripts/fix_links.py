@@ -129,7 +129,8 @@ def normalize_links(content: str, slug_map: Dict[str, str]) -> str:
     slug_fnames = set(slug_map.values())
 
     def replace(match: re.Match) -> str:
-        text, url = match.group(1), match.group(2)
+        text_part = match.group(1)   # 完整括号文本部分："[text]" 或 "![alt]"
+        url = match.group(2)
         stripped = url.strip()
         if (stripped.startswith(('http://', 'https://', '/', '#', 'assets/',
                                  'mailto:', '<'))
@@ -139,16 +140,16 @@ def normalize_links(content: str, slug_map: Dict[str, str]) -> str:
         if '?' in stripped or '*' in stripped:
             return match.group(0)
         page_part, _, anchor = stripped.partition('#')
+        suffix = "#" + anchor if anchor else ""
         # 裸页名链接：URL = slug（去 .md）或原始页名 → 补 .md（可带锚点）
         if page_part + ".md" in slug_fnames:
-            return f"[{text}]({page_part}.md" + (f"#{anchor}" if anchor else "") + ")"
+            return f"{text_part}({page_part}.md{suffix})"
         if page_part in slug_map:
-            fname = slug_map[page_part]
-            return f"[{text}]({fname}" + (f"#{anchor}" if anchor else "") + ")"
+            return f"{text_part}({slug_map[page_part]}{suffix})"
         # 其余相对目标视为附件引用
-        return f"[{text}](assets/{stripped})"
+        return f"{text_part}(assets/{stripped})"
 
-    return re.sub(r'(!\[[^\]]*\]|\[[^\]]+)\]\(([^)\s]+)\)', replace, content)
+    return re.sub(r'(!\[[^\]]*\]|\[[^\]]*\])\(([^)\s]+)\)', replace, content)
 
 
 def generate_anchor_map(source_dir: Path, target_dir: Path) -> Dict[str, str]:
