@@ -1,6 +1,6 @@
 # 翻译进度看板（自动生成，禁手改）
 
-> 生成: 2026-11-19 04:45:00 ｜ 数据源: .translation-state.json ｜ 上游基线: 150904800daf
+> 生成: 2026-11-19 04:57:50 ｜ 数据源: .translation-state.json ｜ 上游基线: 150904800daf
 
 | 文件 | 上游页名 | 段数 | translated | reviewed | pending | skipped | 进度 |
 |---|---|---:|---:|---:|---:|---:|---:|

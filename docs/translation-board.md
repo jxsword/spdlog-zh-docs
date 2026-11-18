@@ -8,7 +8,7 @@
 
 | 批次 | 范围 | 段数 | 状态 |
 |---|---|---:|---|
-| M1 基建 | 同步管线 + 脚本/测试/门禁/站点/CI | 0 | 进行中（2026-11-19，详见 [handoff-latest.md](handoff-latest.md)） |
+| M1 基建 | 同步管线 + 脚本/测试/门禁/站点/CI | 0 | **已完成**（2026-11-19，验收证据见 [handoff-latest.md](handoff-latest.md)） |
 | B1 核心 | 5 页：index(Home)/QuickStart/CMake/Custom-formatting/Sinks | 157 | pending |
 | B2 主体 | 8 页 + docs-index | 238 | pending |
 | B3 收尾 | 12 小页 | 64 | pending |
@@ -61,11 +61,11 @@
 - [x] M0 init commit（计划/DR/启动提示词入库，Decision: DR-001..003）
 - [x] M1a wiki ls-remote 复确认（HEAD 15090480，直连可达）
 - [x] M1b 同步管线 + sync --init（28 文件 / 461 段入库）+ 计划 §7.1 回填 + 本看板创建
-- [ ] M1c 脚本 + tests 全绿（含 test_fix_links_wiki.py）
-- [ ] M1d glossary + style-guide 初版
-- [ ] M1e mkdocs + 3 workflow + jieba 中文检索验证
-- [ ] M1f gh repo create + Pages 占位站
-- [ ] M1g handoff + 验收汇报
+- [x] M1c 脚本 + tests 88/88 全绿（含 test_fix_links_wiki.py）
+- [x] M1d glossary 28 条 + banned 8 条 + style-guide 初版
+- [x] M1e mkdocs + 3 workflow + jieba 中文检索实测 PASS（10/10 token）
+- [x] M1f gh repo create + push + Pages 占位站（HTTP 200）+ 3 workflow CI 冒烟全绿
+- [x] M1g handoff + progress + 验收汇报（等用户确认进 M2）
 
 ## 硬性纪律（每批适用）
 
