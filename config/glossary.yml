@@ -1,0 +1,203 @@
+# spdlog 中文翻译术语表（glossary.yml）
+# 结构：terms（en/zh/status/context/aliases）+ banned（禁用译名黑名单）
+# 规则（计划 §6.8）：
+#   - 术语表为唯一来源；变更走 PR，合并后术语扫描全量生效
+#   - API 名/函数/类/宏/头文件/代码不译；术语首现括注原文
+#   - banned 由 validate_translation.py 检查 6b 机器扫描（0 违规硬门禁）
+#   - status: approved / provisional（provisional 条目 M2 批次复核后转正）
+
+terms:
+  - en: "logger"
+    zh: "日志记录器"
+    status: "approved"
+    context: "全库"
+    aliases: []
+
+  - en: "sink"
+    zh: "接收器"
+    status: "approved"
+    context: "Sinks.md、Logger-registry.md"
+    aliases: []
+    note: "首现括注（sink）"
+
+  - en: "formatter"
+    zh: "格式化器"
+    status: "approved"
+    context: "Custom-formatting.md、Sinks.md"
+    aliases: []
+
+  - en: "pattern formatter"
+    zh: "模式格式化器"
+    status: "approved"
+    context: "Custom-formatting.md"
+    aliases: ["pattern"]
+
+  - en: "flush"
+    zh: "刷新"
+    status: "approved"
+    context: "Flush-policy.md"
+    aliases: []
+
+  - en: "log level"
+    zh: "日志级别"
+    status: "approved"
+    context: "QuickStart.md、Custom-formatting.md"
+    aliases: ["level"]
+
+  - en: "async logger"
+    zh: "异步日志记录器"
+    status: "approved"
+    context: "Asynchronous-logging.md"
+    aliases: []
+
+  - en: "async mode"
+    zh: "异步模式"
+    status: "approved"
+    context: "Asynchronous-logging"
+    aliases: []
+
+  - en: "overflow policy"
+    zh: "溢出策略"
+    status: "approved"
+    context: "Asynchronous-logging.md"
+    aliases: []
+
+  - en: "ring buffer"
+    zh: "环形缓冲区"
+    status: "approved"
+    context: "Asynchronous-logging.md"
+    aliases: []
+
+  - en: "thread pool"
+    zh: "线程池"
+    status: "approved"
+    context: "Asynchronous-logging.md"
+    aliases: []
+
+  - en: "backtrace"
+    zh: "回溯"
+    status: "approved"
+    context: "QuickStart.md、Logger-registry.md"
+    aliases: []
+
+  - en: "rotation"
+    zh: "轮转"
+    status: "approved"
+    context: "Sinks.md（rotating file sink）"
+    aliases: ["rotate"]
+
+  - en: "rotating file sink"
+    zh: "轮转文件接收器"
+    status: "approved"
+    context: "Sinks.md"
+    aliases: []
+
+  - en: "daily file sink"
+    zh: "按日文件接收器"
+    status: "approved"
+    context: "Sinks.md"
+    aliases: []
+
+  - en: "console sink"
+    zh: "控制台接收器"
+    status: "approved"
+    context: "Sinks.md"
+    aliases: []
+
+  - en: "basic file sink"
+    zh: "基础文件接收器"
+    status: "approved"
+    context: "Sinks.md"
+    aliases: []
+
+  - en: "header-only"
+    zh: "仅头文件"
+    status: "approved"
+    context: "index.md、QuickStart.md"
+    aliases: []
+
+  - en: "thread safety"
+    zh: "线程安全"
+    status: "approved"
+    context: "Thread-Safety.md"
+    aliases: []
+
+  - en: "error handler"
+    zh: "错误处理器"
+    status: "approved"
+    context: "Error-handling.md"
+    aliases: []
+
+  - en: "log message"
+    zh: "日志消息"
+    status: "approved"
+    context: "全库"
+    aliases: []
+
+  - en: "format string"
+    zh: "格式字符串"
+    status: "approved"
+    context: "Custom-formatting.md、docs-index.md"
+    aliases: []
+
+  - en: "compile time"
+    zh: "编译期"
+    status: "approved"
+    context: "QuickStart.md、docs-index.md"
+    aliases: ["compile-time"]
+
+  - en: "log macro"
+    zh: "日志宏"
+    status: "approved"
+    context: "QuickStart.md"
+    aliases: []
+
+  - en: "registry"
+    zh: "注册表"
+    status: "approved"
+    context: "Logger-registry.md"
+    aliases: []
+
+  - en: "user-defined literal"
+    zh: "用户定义字面量"
+    status: "approved"
+    context: "docs-index.md"
+    aliases: []
+
+  - en: "binary mode"
+    zh: "二进制模式"
+    status: "approved"
+    context: "docs-index.md"
+    aliases: []
+
+  - en: "event handler"
+    zh: "事件处理器"
+    status: "approved"
+    context: "docs-index.md"
+    aliases: []
+
+banned:
+  - bad: "日志槽"
+    prefer: "接收器"
+    reason: "sink 误译（槽件隐喻不统一）"
+  - bad: "水槽"
+    prefer: "接收器"
+    reason: "sink 误译"
+  - bad: "伐木者"
+    prefer: "日志记录器"
+    reason: "logger 误译（直译 tool 后缀）"
+  - bad: "记录仪"
+    prefer: "日志记录器"
+    reason: "logger 误译（仪表隐喻）"
+  - bad: "冲刷"
+    prefer: "刷新"
+    reason: "flush 误译（水文学隐喻）"
+  - bad: "日志级别枚举"
+    prefer: "日志级别"
+    reason: "level 冗余直译"
+  - bad: "轉檔"
+    prefer: "轮转"
+    reason: "繁体/台式译法混入"
+  - bad: "執行緒"
+    prefer: "线程"
+    reason: "繁体/台式译法混入"
