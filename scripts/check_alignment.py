@@ -69,6 +69,26 @@ def stopword_count(text: str) -> int:
     return sum(1 for w in prose_words(text) if w.lower() in STOPWORDS)
 
 
+def fence_spans(text: str) -> list:
+    """FENCE_RE 匹配 span 覆盖的行区间（1-based 闭区间）。
+
+    正则视图（同 validate/字节守卫）配对正确：行内 ```span``` 同行自闭合。
+    行级分段器（segment_md）会把"以行内 span 开头的换行散文行"误判为围栏
+    开启并整体错位（FAQ.md 实测），把真实代码行判成段落——漏译检测据此豁免
+    落在真实围栏 span 内的段落（代码逐字节守卫已由围栏字节比对承担）。
+    """
+    spans = []
+    src_text = text
+    nl_before = lambda pos: src_text.count('\n', 0, pos)
+    for m in FENCE_RE.finditer(src_text):
+        spans.append((nl_before(m.start()) + 1, nl_before(m.end() - 1) + 1))
+    return spans
+
+
+def in_fence(line_start: int, line_end: int, spans: list) -> bool:
+    return any(a <= line_start and line_end <= b for a, b in spans)
+
+
 def check_file(fname: str, state: dict) -> list:
     """返回该文件的错误列表（告警单独返回，见 check_file_verbose）。"""
     errors, warnings = [], []
@@ -98,6 +118,7 @@ def check_file(fname: str, state: dict) -> list:
     # 视图 B：同一分段器的结构对齐
     src_segs = segment_md(src_text, fname)
     tgt_segs = segment_md(tgt_text, fname)
+    src_spans = fence_spans(src_text)
     if len(src_segs) != len(tgt_segs):
         errors.append(
             f"segment count mismatch: source={len(src_segs)}, target={len(tgt_segs)}")
@@ -125,6 +146,10 @@ def check_file(fname: str, state: dict) -> list:
                 if not t.content.strip():
                     errors.append(f"segment {i} paragraph empty in translation")
                 elif t.content == s.content:
+                    # 落在真实围栏 span 内的"段落"是分段器错位误判的代码行，
+                    # 逐字节保留正确（围栏字节守卫已覆盖），不触发漏译检测
+                    if in_fence(s.line_start, s.line_end, src_spans):
+                        continue
                     sc = stopword_count(s.content)
                     words = prose_words(s.content)
                     if sc >= 3:

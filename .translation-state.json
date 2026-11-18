@@ -41,9 +41,11 @@
           "line_end": 1,
           "metadata": {
             "level": 2,
-            "title": "Creating async loggers"
+            "title": "Creating async loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -54,9 +56,11 @@
           "line_start": 2,
           "line_end": 2,
           "metadata": {
-            "section": "Creating async loggers"
+            "section": "Creating async loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-1",
@@ -68,9 +72,11 @@
           "line_end": 5,
           "metadata": {
             "level": 3,
-            "title": "Using the ```<spdlog::async_factory>``` template argument:"
+            "title": "Using the ```<spdlog::async_factory>``` template argument:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-0",
@@ -81,9 +87,11 @@
           "line_start": 6,
           "line_end": 14,
           "metadata": {
-            "section": "Using the ```<spdlog::async_factory>``` template argument:"
+            "section": "Using the ```<spdlog::async_factory>``` template argument:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-2",
@@ -95,9 +103,11 @@
           "line_end": 16,
           "metadata": {
             "level": 3,
-            "title": "Using ```spdlog::create_async<Sink>```:"
+            "title": "Using ```spdlog::create_async<Sink>```:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-0",
@@ -108,9 +118,11 @@
           "line_start": 17,
           "line_end": 19,
           "metadata": {
-            "section": "Using ```spdlog::create_async<Sink>```:"
+            "section": "Using ```spdlog::create_async<Sink>```:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-3",
@@ -122,9 +134,11 @@
           "line_end": 20,
           "metadata": {
             "level": 3,
-            "title": "Using  ```spdlog::create_async_nb<Sink>```:"
+            "title": "Using  ```spdlog::create_async_nb<Sink>```:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -135,9 +149,11 @@
           "line_start": 21,
           "line_end": 21,
           "metadata": {
-            "section": "Using  ```spdlog::create_async_nb<Sink>```:"
+            "section": "Using  ```spdlog::create_async_nb<Sink>```:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-1",
@@ -148,9 +164,11 @@
           "line_start": 22,
           "line_end": 24,
           "metadata": {
-            "section": "Using  ```spdlog::create_async_nb<Sink>```:"
+            "section": "Using  ```spdlog::create_async_nb<Sink>```:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-4",
@@ -162,9 +180,11 @@
           "line_end": 26,
           "metadata": {
             "level": 3,
-            "title": "Construct directly and use the global thread pool"
+            "title": "Construct directly and use the global thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-0",
@@ -175,9 +195,11 @@
           "line_start": 27,
           "line_end": 30,
           "metadata": {
-            "section": "Construct directly and use the global thread pool"
+            "section": "Construct directly and use the global thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-5",
@@ -189,9 +211,11 @@
           "line_end": 32,
           "metadata": {
             "level": 3,
-            "title": "Construct directly and use a custom thread pool"
+            "title": "Construct directly and use a custom thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-0",
@@ -202,9 +226,11 @@
           "line_start": 33,
           "line_end": 36,
           "metadata": {
-            "section": "Construct directly and use a custom thread pool"
+            "section": "Construct directly and use a custom thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h4-6",
@@ -216,9 +242,11 @@
           "line_end": 37,
           "metadata": {
             "level": 4,
-            "title": "Note: the tp object in the above example must outlive the logger object, since the logger acquires a weak_ptr to the tp."
+            "title": "Note: the tp object in the above example must outlive the logger object, since the logger acquires a weak_ptr to the tp.",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h2-7",
@@ -230,9 +258,11 @@
           "line_end": 39,
           "metadata": {
             "level": 2,
-            "title": "Full queue policy"
+            "title": "Full queue policy",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -243,9 +273,11 @@
           "line_start": 40,
           "line_end": 43,
           "metadata": {
-            "section": "Full queue policy"
+            "section": "Full queue policy",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-1",
@@ -256,9 +288,11 @@
           "line_start": 44,
           "line_end": 48,
           "metadata": {
-            "section": "Full queue policy"
+            "section": "Full queue policy",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h2-8",
@@ -270,9 +304,11 @@
           "line_end": 50,
           "metadata": {
             "level": 2,
-            "title": "spdlog's thread pool"
+            "title": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -283,9 +319,11 @@
           "line_start": 51,
           "line_end": 51,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-1",
@@ -296,9 +334,11 @@
           "line_start": 53,
           "line_end": 53,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-2",
@@ -309,9 +349,11 @@
           "line_start": 55,
           "line_end": 55,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-3",
@@ -322,9 +364,11 @@
           "line_start": 57,
           "line_end": 57,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-4",
@@ -335,9 +379,11 @@
           "line_start": 58,
           "line_end": 60,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-5",
@@ -348,9 +394,11 @@
           "line_start": 61,
           "line_end": 61,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-6",
@@ -361,9 +409,11 @@
           "line_start": 63,
           "line_end": 63,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-7",
@@ -374,9 +424,11 @@
           "line_start": 65,
           "line_end": 71,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-8",
@@ -387,9 +439,11 @@
           "line_start": 73,
           "line_end": 73,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-code-9",
@@ -400,9 +454,11 @@
           "line_start": 74,
           "line_end": 82,
           "metadata": {
-            "section": "spdlog's thread pool"
+            "section": "spdlog's thread pool",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h3-9",
@@ -414,9 +470,11 @@
           "line_end": 84,
           "metadata": {
             "level": 3,
-            "title": "Message ordering"
+            "title": "Message ordering",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -427,9 +485,11 @@
           "line_start": 85,
           "line_end": 85,
           "metadata": {
-            "section": "Message ordering"
+            "section": "Message ordering",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-1",
@@ -440,9 +500,11 @@
           "line_start": 87,
           "line_end": 87,
           "metadata": {
-            "section": "Message ordering"
+            "section": "Message ordering",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-2",
@@ -453,9 +515,11 @@
           "line_start": 89,
           "line_end": 89,
           "metadata": {
-            "section": "Message ordering"
+            "section": "Message ordering",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-h4-10",
@@ -467,9 +531,11 @@
           "line_end": 91,
           "metadata": {
             "level": 4,
-            "title": "Windows issues"
+            "title": "Windows issues",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Asynchronous-logging.md-p-0",
@@ -480,9 +546,11 @@
           "line_start": 92,
           "line_end": 93,
           "metadata": {
-            "section": "Windows issues"
+            "section": "Windows issues",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -1075,9 +1143,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-1",
@@ -1088,9 +1158,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-2",
@@ -1101,9 +1173,11 @@
           "line_start": 5,
           "line_end": 6,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-0",
@@ -1115,9 +1189,11 @@
           "line_end": 8,
           "metadata": {
             "level": 3,
-            "title": "Creating loggers using the factory functions"
+            "title": "Creating loggers using the factory functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-0",
@@ -1128,9 +1204,11 @@
           "line_start": 10,
           "line_end": 14,
           "metadata": {
-            "section": "Creating loggers using the factory functions"
+            "section": "Creating loggers using the factory functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-1",
@@ -1141,9 +1219,11 @@
           "line_start": 15,
           "line_end": 15,
           "metadata": {
-            "section": "Creating loggers using the factory functions"
+            "section": "Creating loggers using the factory functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-1",
@@ -1155,9 +1235,11 @@
           "line_end": 17,
           "metadata": {
             "level": 3,
-            "title": "Accessing loggers using spdlog::get(\"...\")"
+            "title": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-0",
@@ -1168,9 +1250,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-1",
@@ -1181,9 +1265,11 @@
           "line_start": 21,
           "line_end": 21,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-2",
@@ -1194,9 +1280,11 @@
           "line_start": 23,
           "line_end": 23,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-3",
@@ -1207,9 +1295,11 @@
           "line_start": 25,
           "line_end": 39,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-4",
@@ -1220,9 +1310,11 @@
           "line_start": 41,
           "line_end": 41,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-5",
@@ -1233,9 +1325,11 @@
           "line_start": 43,
           "line_end": 43,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-6",
@@ -1246,9 +1340,11 @@
           "line_start": 45,
           "line_end": 49,
           "metadata": {
-            "section": "Accessing loggers using spdlog::get(\"...\")"
+            "section": "Accessing loggers using spdlog::get(\"...\")",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-2",
@@ -1260,9 +1356,11 @@
           "line_end": 51,
           "metadata": {
             "level": 3,
-            "title": "Create a rotating file logger"
+            "title": "Create a rotating file logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-0",
@@ -1273,9 +1371,11 @@
           "line_start": 52,
           "line_end": 58,
           "metadata": {
-            "section": "Create a rotating file logger"
+            "section": "Create a rotating file logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-3",
@@ -1287,9 +1387,11 @@
           "line_end": 60,
           "metadata": {
             "level": 3,
-            "title": "Creating asynchronous loggers"
+            "title": "Creating asynchronous loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-0",
@@ -1300,9 +1402,11 @@
           "line_start": 61,
           "line_end": 72,
           "metadata": {
-            "section": "Creating asynchronous loggers"
+            "section": "Creating asynchronous loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-1",
@@ -1313,9 +1417,11 @@
           "line_start": 73,
           "line_end": 73,
           "metadata": {
-            "section": "Creating asynchronous loggers"
+            "section": "Creating asynchronous loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-2",
@@ -1326,9 +1432,11 @@
           "line_start": 75,
           "line_end": 75,
           "metadata": {
-            "section": "Creating asynchronous loggers"
+            "section": "Creating asynchronous loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-3",
@@ -1339,9 +1447,11 @@
           "line_start": 77,
           "line_end": 77,
           "metadata": {
-            "section": "Creating asynchronous loggers"
+            "section": "Creating asynchronous loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-4",
@@ -1353,9 +1463,11 @@
           "line_end": 79,
           "metadata": {
             "level": 3,
-            "title": "Creating loggers manually"
+            "title": "Creating loggers manually",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-0",
@@ -1366,9 +1478,11 @@
           "line_start": 80,
           "line_end": 86,
           "metadata": {
-            "section": "Creating loggers manually"
+            "section": "Creating loggers manually",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-1",
@@ -1379,9 +1493,11 @@
           "line_start": 88,
           "line_end": 91,
           "metadata": {
-            "section": "Creating loggers manually"
+            "section": "Creating loggers manually",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-5",
@@ -1393,9 +1509,11 @@
           "line_end": 93,
           "metadata": {
             "level": 3,
-            "title": "Creating loggers with multiple sinks"
+            "title": "Creating loggers with multiple sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-0",
@@ -1406,9 +1524,11 @@
           "line_start": 94,
           "line_end": 101,
           "metadata": {
-            "section": "Creating loggers with multiple sinks"
+            "section": "Creating loggers with multiple sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-h3-6",
@@ -1420,9 +1540,11 @@
           "line_end": 103,
           "metadata": {
             "level": 3,
-            "title": "Creating multiple file loggers with the same output file"
+            "title": "Creating multiple file loggers with the same output file",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-p-0",
@@ -1433,9 +1555,11 @@
           "line_start": 104,
           "line_end": 104,
           "metadata": {
-            "section": "Creating multiple file loggers with the same output file"
+            "section": "Creating multiple file loggers with the same output file",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Creating-loggers.md-code-1",
@@ -1446,9 +1570,11 @@
           "line_start": 105,
           "line_end": 109,
           "metadata": {
-            "section": "Creating multiple file loggers with the same output file"
+            "section": "Creating multiple file loggers with the same output file",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -1841,9 +1967,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Default-logger.md-p-1",
@@ -1854,9 +1982,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Default-logger.md-p-2",
@@ -1867,9 +1997,11 @@
           "line_start": 5,
           "line_end": 5,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Default-logger.md-code-3",
@@ -1880,9 +2012,11 @@
           "line_start": 6,
           "line_end": 9,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -1903,9 +2037,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-1",
@@ -1916,9 +2052,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-2",
@@ -1929,9 +2067,11 @@
           "line_start": 5,
           "line_end": 6,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-3",
@@ -1942,9 +2082,11 @@
           "line_start": 8,
           "line_end": 8,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-4",
@@ -1955,9 +2097,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-code-5",
@@ -1968,9 +2112,11 @@
           "line_start": 12,
           "line_end": 16,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-6",
@@ -1981,9 +2127,11 @@
           "line_start": 19,
           "line_end": 19,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-code-7",
@@ -1994,9 +2142,11 @@
           "line_start": 21,
           "line_end": 26,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-8",
@@ -2007,9 +2157,11 @@
           "line_start": 28,
           "line_end": 28,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-p-9",
@@ -2020,9 +2172,11 @@
           "line_start": 30,
           "line_end": 30,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Error-handling.md-code-10",
@@ -2033,9 +2187,11 @@
           "line_start": 31,
           "line_end": 33,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -2057,9 +2213,11 @@
           "line_end": 1,
           "metadata": {
             "level": 2,
-            "title": "The log file remains empty"
+            "title": "The log file remains empty",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2070,9 +2228,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": "The log file remains empty"
+            "section": "The log file remains empty",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-1",
@@ -2083,9 +2243,11 @@
           "line_start": 5,
           "line_end": 5,
           "metadata": {
-            "section": "The log file remains empty"
+            "section": "The log file remains empty",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-2",
@@ -2096,9 +2258,11 @@
           "line_start": 6,
           "line_end": 11,
           "metadata": {
-            "section": "The log file remains empty"
+            "section": "The log file remains empty",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-3",
@@ -2109,9 +2273,11 @@
           "line_start": 12,
           "line_end": 12,
           "metadata": {
-            "section": "The log file remains empty"
+            "section": "The log file remains empty",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h2-1",
@@ -2123,9 +2289,11 @@
           "line_end": 14,
           "metadata": {
             "level": 2,
-            "title": "How to remove all debug statements at compile time ?"
+            "title": "How to remove all debug statements at compile time ?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2136,9 +2304,11 @@
           "line_start": 15,
           "line_end": 15,
           "metadata": {
-            "section": "How to remove all debug statements at compile time ?"
+            "section": "How to remove all debug statements at compile time ?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-1",
@@ -2149,9 +2319,11 @@
           "line_start": 17,
           "line_end": 24,
           "metadata": {
-            "section": "How to remove all debug statements at compile time ?"
+            "section": "How to remove all debug statements at compile time ?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-2",
@@ -2162,9 +2334,11 @@
           "line_start": 26,
           "line_end": 27,
           "metadata": {
-            "section": "How to remove all debug statements at compile time ?"
+            "section": "How to remove all debug statements at compile time ?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h2-2",
@@ -2176,9 +2350,11 @@
           "line_end": 29,
           "metadata": {
             "level": 2,
-            "title": "How to use external fmt library instead of the bundled?"
+            "title": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2189,9 +2365,11 @@
           "line_start": 31,
           "line_end": 31,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-1",
@@ -2202,9 +2380,11 @@
           "line_start": 33,
           "line_end": 33,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-2",
@@ -2215,9 +2395,11 @@
           "line_start": 34,
           "line_end": 41,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-3",
@@ -2228,9 +2410,11 @@
           "line_start": 42,
           "line_end": 43,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-4",
@@ -2241,9 +2425,11 @@
           "line_start": 45,
           "line_end": 45,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-5",
@@ -2254,9 +2440,11 @@
           "line_start": 46,
           "line_end": 81,
           "metadata": {
-            "section": "How to use external fmt library instead of the bundled?"
+            "section": "How to use external fmt library instead of the bundled?",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-3",
@@ -2268,9 +2456,11 @@
           "line_end": 83,
           "metadata": {
             "level": 1,
-            "title": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_INFO"
+            "title": "define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_INFO",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-4",
@@ -2282,9 +2472,11 @@
           "line_end": 84,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/spdlog.h\""
+            "title": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-5",
@@ -2296,9 +2488,11 @@
           "line_end": 85,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/sinks/stdout_sinks.h\""
+            "title": "include \"spdlog/sinks/stdout_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2309,9 +2503,11 @@
           "line_start": 87,
           "line_end": 91,
           "metadata": {
-            "section": "include \"spdlog/sinks/stdout_sinks.h\""
+            "section": "include \"spdlog/sinks/stdout_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-1",
@@ -2322,9 +2518,11 @@
           "line_start": 93,
           "line_end": 94,
           "metadata": {
-            "section": "include \"spdlog/sinks/stdout_sinks.h\""
+            "section": "include \"spdlog/sinks/stdout_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-2",
@@ -2335,9 +2533,11 @@
           "line_start": 96,
           "line_end": 97,
           "metadata": {
-            "section": "include \"spdlog/sinks/stdout_sinks.h\""
+            "section": "include \"spdlog/sinks/stdout_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-3",
@@ -2348,9 +2548,11 @@
           "line_start": 98,
           "line_end": 115,
           "metadata": {
-            "section": "include \"spdlog/sinks/stdout_sinks.h\""
+            "section": "include \"spdlog/sinks/stdout_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-6",
@@ -2362,9 +2564,11 @@
           "line_end": 116,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/sinks/stdout_color_sinks.h\""
+            "title": "include \"spdlog/sinks/stdout_color_sinks.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-7",
@@ -2376,9 +2580,11 @@
           "line_end": 117,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/spdlog.h\""
+            "title": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2389,9 +2595,11 @@
           "line_start": 118,
           "line_end": 125,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-1",
@@ -2402,9 +2610,11 @@
           "line_start": 126,
           "line_end": 132,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-2",
@@ -2415,9 +2625,11 @@
           "line_start": 133,
           "line_end": 133,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-3",
@@ -2428,9 +2640,11 @@
           "line_start": 135,
           "line_end": 135,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-4",
@@ -2441,9 +2655,11 @@
           "line_start": 137,
           "line_end": 137,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-5",
@@ -2454,9 +2670,11 @@
           "line_start": 138,
           "line_end": 146,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-h1-8",
@@ -2468,9 +2686,11 @@
           "line_end": 147,
           "metadata": {
             "level": 1,
-            "title": "include \"spdlog/spdlog.h\""
+            "title": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-0",
@@ -2481,9 +2701,11 @@
           "line_start": 149,
           "line_end": 151,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-p-1",
@@ -2494,9 +2716,11 @@
           "line_start": 153,
           "line_end": 154,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "FAQ.md-code-2",
@@ -2507,9 +2731,11 @@
           "line_start": 155,
           "line_end": 162,
           "metadata": {
-            "section": "include \"spdlog/spdlog.h\""
+            "section": "include \"spdlog/spdlog.h\"",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -2530,9 +2756,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-h3-0",
@@ -2544,9 +2772,11 @@
           "line_end": 4,
           "metadata": {
             "level": 3,
-            "title": "Manual flush"
+            "title": "Manual flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-0",
@@ -2557,9 +2787,11 @@
           "line_start": 5,
           "line_end": 5,
           "metadata": {
-            "section": "Manual flush"
+            "section": "Manual flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-1",
@@ -2570,9 +2802,11 @@
           "line_start": 7,
           "line_end": 7,
           "metadata": {
-            "section": "Manual flush"
+            "section": "Manual flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-h3-1",
@@ -2584,9 +2818,11 @@
           "line_end": 9,
           "metadata": {
             "level": 3,
-            "title": "Severity based flush"
+            "title": "Severity based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-0",
@@ -2597,9 +2833,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": "Severity based flush"
+            "section": "Severity based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-1",
@@ -2610,9 +2848,11 @@
           "line_start": 12,
           "line_end": 12,
           "metadata": {
-            "section": "Severity based flush"
+            "section": "Severity based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-code-2",
@@ -2623,9 +2863,11 @@
           "line_start": 13,
           "line_end": 15,
           "metadata": {
-            "section": "Severity based flush"
+            "section": "Severity based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-h3-2",
@@ -2637,9 +2879,11 @@
           "line_end": 17,
           "metadata": {
             "level": 3,
-            "title": "Interval based flush"
+            "title": "Interval based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-0",
@@ -2650,9 +2894,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": "Interval based flush"
+            "section": "Interval based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-1",
@@ -2663,9 +2909,11 @@
           "line_start": 21,
           "line_end": 21,
           "metadata": {
-            "section": "Interval based flush"
+            "section": "Interval based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-code-2",
@@ -2676,9 +2924,11 @@
           "line_start": 22,
           "line_end": 24,
           "metadata": {
-            "section": "Interval based flush"
+            "section": "Interval based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Flush-policy.md-p-3",
@@ -2689,9 +2939,11 @@
           "line_start": 26,
           "line_end": 26,
           "metadata": {
-            "section": "Interval based flush"
+            "section": "Interval based flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3132,9 +3384,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-1",
@@ -3145,9 +3399,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-code-2",
@@ -3158,9 +3414,11 @@
           "line_start": 5,
           "line_end": 13,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-3",
@@ -3171,9 +3429,11 @@
           "line_start": 15,
           "line_end": 15,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-h3-0",
@@ -3185,9 +3445,11 @@
           "line_end": 17,
           "metadata": {
             "level": 3,
-            "title": "Registering new loggers"
+            "title": "Registering new loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-0",
@@ -3198,9 +3460,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": "Registering new loggers"
+            "section": "Registering new loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-1",
@@ -3211,9 +3475,11 @@
           "line_start": 20,
           "line_end": 20,
           "metadata": {
-            "section": "Registering new loggers"
+            "section": "Registering new loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-code-2",
@@ -3224,9 +3490,11 @@
           "line_start": 21,
           "line_end": 23,
           "metadata": {
-            "section": "Registering new loggers"
+            "section": "Registering new loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-3",
@@ -3237,9 +3505,11 @@
           "line_start": 24,
           "line_end": 24,
           "metadata": {
-            "section": "Registering new loggers"
+            "section": "Registering new loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-h3-1",
@@ -3251,9 +3521,11 @@
           "line_end": 26,
           "metadata": {
             "level": 3,
-            "title": "Registry conflicts"
+            "title": "Registry conflicts",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-0",
@@ -3264,9 +3536,11 @@
           "line_start": 27,
           "line_end": 27,
           "metadata": {
-            "section": "Registry conflicts"
+            "section": "Registry conflicts",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-h3-2",
@@ -3278,9 +3552,11 @@
           "line_end": 29,
           "metadata": {
             "level": 3,
-            "title": "Removing loggers from the registry"
+            "title": "Removing loggers from the registry",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-0",
@@ -3291,9 +3567,11 @@
           "line_start": 30,
           "line_end": 30,
           "metadata": {
-            "section": "Removing loggers from the registry"
+            "section": "Removing loggers from the registry",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-p-1",
@@ -3304,9 +3582,11 @@
           "line_start": 32,
           "line_end": 32,
           "metadata": {
-            "section": "Removing loggers from the registry"
+            "section": "Removing loggers from the registry",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Logger-registry.md-code-2",
@@ -3317,9 +3597,11 @@
           "line_start": 33,
           "line_end": 37,
           "metadata": {
-            "section": "Removing loggers from the registry"
+            "section": "Removing loggers from the registry",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -5228,9 +5510,11 @@
           "line_end": 1,
           "metadata": {
             "level": 2,
-            "title": "Non thread safe functions"
+            "title": "Non thread safe functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-0",
@@ -5241,9 +5525,11 @@
           "line_start": 2,
           "line_end": 4,
           "metadata": {
-            "section": "Non thread safe functions"
+            "section": "Non thread safe functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-1",
@@ -5254,9 +5540,11 @@
           "line_start": 6,
           "line_end": 6,
           "metadata": {
-            "section": "Non thread safe functions"
+            "section": "Non thread safe functions",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-h3-1",
@@ -5268,9 +5556,11 @@
           "line_end": 8,
           "metadata": {
             "level": 3,
-            "title": "Loggers"
+            "title": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-0",
@@ -5281,9 +5571,11 @@
           "line_start": 9,
           "line_end": 9,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-1",
@@ -5294,9 +5586,11 @@
           "line_start": 11,
           "line_end": 11,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-code-2",
@@ -5307,9 +5601,11 @@
           "line_start": 12,
           "line_end": 14,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-3",
@@ -5320,9 +5616,11 @@
           "line_start": 16,
           "line_end": 16,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-4",
@@ -5333,9 +5631,11 @@
           "line_start": 18,
           "line_end": 18,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-code-5",
@@ -5346,9 +5646,11 @@
           "line_start": 19,
           "line_end": 21,
           "metadata": {
-            "section": "Loggers"
+            "section": "Loggers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-h3-2",
@@ -5360,9 +5662,11 @@
           "line_end": 23,
           "metadata": {
             "level": 3,
-            "title": "Sinks"
+            "title": "Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Thread-Safety.md-p-0",
@@ -5373,9 +5677,11 @@
           "line_start": 24,
           "line_end": 25,
           "metadata": {
-            "section": "Sinks"
+            "section": "Sinks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -5554,9 +5860,11 @@
           "line_end": 2,
           "metadata": {
             "level": 1,
-            "title": "spdlog"
+            "title": "spdlog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -5567,9 +5875,11 @@
           "line_start": 5,
           "line_end": 8,
           "metadata": {
-            "section": "spdlog"
+            "section": "spdlog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5580,9 +5890,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": "spdlog"
+            "section": "spdlog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-1",
@@ -5594,9 +5906,11 @@
           "line_end": 12,
           "metadata": {
             "level": 2,
-            "title": "Install"
+            "title": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5607,9 +5921,11 @@
           "line_start": 13,
           "line_end": 17,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5620,9 +5936,11 @@
           "line_start": 19,
           "line_end": 19,
           "metadata": {
-            "section": "Install"
+            "section": "Install",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-2",
@@ -5634,9 +5952,11 @@
           "line_end": 21,
           "metadata": {
             "level": 2,
-            "title": "Platforms"
+            "title": "Platforms",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -5647,9 +5967,11 @@
           "line_start": 22,
           "line_end": 25,
           "metadata": {
-            "section": "Platforms"
+            "section": "Platforms",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-3",
@@ -5661,9 +5983,11 @@
           "line_end": 27,
           "metadata": {
             "level": 2,
-            "title": "Package managers:"
+            "title": "Package managers:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -5674,9 +5998,11 @@
           "line_start": 28,
           "line_end": 39,
           "metadata": {
-            "section": "Package managers:"
+            "section": "Package managers:",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-4",
@@ -5688,9 +6014,11 @@
           "line_end": 42,
           "metadata": {
             "level": 2,
-            "title": "Features"
+            "title": "Features",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -5701,9 +6029,11 @@
           "line_start": 43,
           "line_end": 59,
           "metadata": {
-            "section": "Features"
+            "section": "Features",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-5",
@@ -5715,9 +6045,11 @@
           "line_end": 61,
           "metadata": {
             "level": 2,
-            "title": "Usage samples"
+            "title": "Usage samples",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-6",
@@ -5729,9 +6061,11 @@
           "line_end": 63,
           "metadata": {
             "level": 4,
-            "title": "Basic usage"
+            "title": "Basic usage",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5742,9 +6076,11 @@
           "line_start": 64,
           "line_end": 90,
           "metadata": {
-            "section": "Basic usage"
+            "section": "Basic usage",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5755,9 +6091,11 @@
           "line_start": 91,
           "line_end": 91,
           "metadata": {
-            "section": "Basic usage"
+            "section": "Basic usage",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-7",
@@ -5769,9 +6107,11 @@
           "line_end": 92,
           "metadata": {
             "level": 4,
-            "title": "Create stdout/stderr logger object"
+            "title": "Create stdout/stderr logger object",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5782,9 +6122,11 @@
           "line_start": 93,
           "line_end": 103,
           "metadata": {
-            "section": "Create stdout/stderr logger object"
+            "section": "Create stdout/stderr logger object",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5795,9 +6137,11 @@
           "line_start": 105,
           "line_end": 105,
           "metadata": {
-            "section": "Create stdout/stderr logger object"
+            "section": "Create stdout/stderr logger object",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-8",
@@ -5809,9 +6153,11 @@
           "line_end": 106,
           "metadata": {
             "level": 4,
-            "title": "Basic file logger"
+            "title": "Basic file logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5822,9 +6168,11 @@
           "line_start": 107,
           "line_end": 120,
           "metadata": {
-            "section": "Basic file logger"
+            "section": "Basic file logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5835,9 +6183,11 @@
           "line_start": 121,
           "line_end": 121,
           "metadata": {
-            "section": "Basic file logger"
+            "section": "Basic file logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-9",
@@ -5849,9 +6199,11 @@
           "line_end": 122,
           "metadata": {
             "level": 4,
-            "title": "Rotating files"
+            "title": "Rotating files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5862,9 +6214,11 @@
           "line_start": 123,
           "line_end": 132,
           "metadata": {
-            "section": "Rotating files"
+            "section": "Rotating files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5875,9 +6229,11 @@
           "line_start": 134,
           "line_end": 134,
           "metadata": {
-            "section": "Rotating files"
+            "section": "Rotating files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-10",
@@ -5889,9 +6245,11 @@
           "line_end": 135,
           "metadata": {
             "level": 4,
-            "title": "Daily files"
+            "title": "Daily files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5902,9 +6260,11 @@
           "line_start": 136,
           "line_end": 145,
           "metadata": {
-            "section": "Daily files"
+            "section": "Daily files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5915,9 +6275,11 @@
           "line_start": 148,
           "line_end": 148,
           "metadata": {
-            "section": "Daily files"
+            "section": "Daily files",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-11",
@@ -5929,9 +6291,11 @@
           "line_end": 149,
           "metadata": {
             "level": 4,
-            "title": "Periodic flush"
+            "title": "Periodic flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5942,9 +6306,11 @@
           "line_start": 150,
           "line_end": 155,
           "metadata": {
-            "section": "Periodic flush"
+            "section": "Periodic flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5955,9 +6321,11 @@
           "line_start": 157,
           "line_end": 157,
           "metadata": {
-            "section": "Periodic flush"
+            "section": "Periodic flush",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-12",
@@ -5969,9 +6337,11 @@
           "line_end": 158,
           "metadata": {
             "level": 4,
-            "title": "Stopwatch"
+            "title": "Stopwatch",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -5982,9 +6352,11 @@
           "line_start": 159,
           "line_end": 169,
           "metadata": {
-            "section": "Stopwatch"
+            "section": "Stopwatch",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -5995,9 +6367,11 @@
           "line_start": 171,
           "line_end": 171,
           "metadata": {
-            "section": "Stopwatch"
+            "section": "Stopwatch",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-13",
@@ -6009,9 +6383,11 @@
           "line_end": 172,
           "metadata": {
             "level": 4,
-            "title": "Log binary data in hex"
+            "title": "Log binary data in hex",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6022,9 +6398,11 @@
           "line_start": 173,
           "line_end": 197,
           "metadata": {
-            "section": "Log binary data in hex"
+            "section": "Log binary data in hex",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6035,9 +6413,11 @@
           "line_start": 199,
           "line_end": 199,
           "metadata": {
-            "section": "Log binary data in hex"
+            "section": "Log binary data in hex",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-14",
@@ -6049,9 +6429,11 @@
           "line_end": 200,
           "metadata": {
             "level": 4,
-            "title": "Logger with multi sinks - each with a different format and log level"
+            "title": "Logger with multi sinks - each with a different format and log level",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6062,9 +6444,11 @@
           "line_start": 201,
           "line_end": 219,
           "metadata": {
-            "section": "Logger with multi sinks - each with a different format and log level"
+            "section": "Logger with multi sinks - each with a different format and log level",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6075,9 +6459,11 @@
           "line_start": 221,
           "line_end": 221,
           "metadata": {
-            "section": "Logger with multi sinks - each with a different format and log level"
+            "section": "Logger with multi sinks - each with a different format and log level",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-15",
@@ -6089,9 +6475,11 @@
           "line_end": 222,
           "metadata": {
             "level": 4,
-            "title": "User-defined callbacks about log events"
+            "title": "User-defined callbacks about log events",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6102,9 +6490,11 @@
           "line_start": 223,
           "line_end": 240,
           "metadata": {
-            "section": "User-defined callbacks about log events"
+            "section": "User-defined callbacks about log events",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6115,9 +6505,11 @@
           "line_start": 242,
           "line_end": 242,
           "metadata": {
-            "section": "User-defined callbacks about log events"
+            "section": "User-defined callbacks about log events",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-16",
@@ -6129,9 +6521,11 @@
           "line_end": 243,
           "metadata": {
             "level": 4,
-            "title": "Asynchronous logging"
+            "title": "Asynchronous logging",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6142,9 +6536,11 @@
           "line_start": 244,
           "line_end": 252,
           "metadata": {
-            "section": "Asynchronous logging"
+            "section": "Asynchronous logging",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6155,9 +6551,11 @@
           "line_start": 254,
           "line_end": 254,
           "metadata": {
-            "section": "Asynchronous logging"
+            "section": "Asynchronous logging",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-17",
@@ -6169,9 +6567,11 @@
           "line_end": 255,
           "metadata": {
             "level": 4,
-            "title": "User-defined types"
+            "title": "User-defined types",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6182,9 +6582,11 @@
           "line_start": 256,
           "line_end": 271,
           "metadata": {
-            "section": "User-defined types"
+            "section": "User-defined types",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6195,9 +6597,11 @@
           "line_start": 273,
           "line_end": 273,
           "metadata": {
-            "section": "User-defined types"
+            "section": "User-defined types",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-18",
@@ -6209,9 +6613,11 @@
           "line_end": 274,
           "metadata": {
             "level": 4,
-            "title": "User-defined flags in the log pattern"
+            "title": "User-defined flags in the log pattern",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6222,9 +6628,11 @@
           "line_start": 275,
           "line_end": 301,
           "metadata": {
-            "section": "User-defined flags in the log pattern"
+            "section": "User-defined flags in the log pattern",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6235,9 +6643,11 @@
           "line_start": 303,
           "line_end": 303,
           "metadata": {
-            "section": "User-defined flags in the log pattern"
+            "section": "User-defined flags in the log pattern",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-19",
@@ -6249,9 +6659,11 @@
           "line_end": 304,
           "metadata": {
             "level": 4,
-            "title": "Custom error handler"
+            "title": "Custom error handler",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6262,9 +6674,11 @@
           "line_start": 305,
           "line_end": 313,
           "metadata": {
-            "section": "Custom error handler"
+            "section": "Custom error handler",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6275,9 +6689,11 @@
           "line_start": 315,
           "line_end": 315,
           "metadata": {
-            "section": "Custom error handler"
+            "section": "Custom error handler",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-20",
@@ -6289,9 +6705,11 @@
           "line_end": 316,
           "metadata": {
             "level": 4,
-            "title": "syslog"
+            "title": "syslog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6302,9 +6720,11 @@
           "line_start": 317,
           "line_end": 325,
           "metadata": {
-            "section": "syslog"
+            "section": "syslog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6315,9 +6735,11 @@
           "line_start": 326,
           "line_end": 326,
           "metadata": {
-            "section": "syslog"
+            "section": "syslog",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-21",
@@ -6329,9 +6751,11 @@
           "line_end": 327,
           "metadata": {
             "level": 4,
-            "title": "Android example"
+            "title": "Android example",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6342,9 +6766,11 @@
           "line_start": 328,
           "line_end": 336,
           "metadata": {
-            "section": "Android example"
+            "section": "Android example",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6355,9 +6781,11 @@
           "line_start": 338,
           "line_end": 338,
           "metadata": {
-            "section": "Android example"
+            "section": "Android example",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-22",
@@ -6369,9 +6797,11 @@
           "line_end": 339,
           "metadata": {
             "level": 4,
-            "title": "Load log levels from the env variable or argv"
+            "title": "Load log levels from the env variable or argv",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6382,9 +6812,11 @@
           "line_start": 341,
           "line_end": 351,
           "metadata": {
-            "section": "Load log levels from the env variable or argv"
+            "section": "Load log levels from the env variable or argv",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6395,9 +6827,11 @@
           "line_start": 352,
           "line_end": 352,
           "metadata": {
-            "section": "Load log levels from the env variable or argv"
+            "section": "Load log levels from the env variable or argv",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-2",
@@ -6408,9 +6842,11 @@
           "line_start": 354,
           "line_end": 357,
           "metadata": {
-            "section": "Load log levels from the env variable or argv"
+            "section": "Load log levels from the env variable or argv",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-3",
@@ -6421,9 +6857,11 @@
           "line_start": 360,
           "line_end": 360,
           "metadata": {
-            "section": "Load log levels from the env variable or argv"
+            "section": "Load log levels from the env variable or argv",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-23",
@@ -6435,9 +6873,11 @@
           "line_end": 361,
           "metadata": {
             "level": 4,
-            "title": "Log file open/close event handlers"
+            "title": "Log file open/close event handlers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6448,9 +6888,11 @@
           "line_start": 362,
           "line_end": 375,
           "metadata": {
-            "section": "Log file open/close event handlers"
+            "section": "Log file open/close event handlers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6461,9 +6903,11 @@
           "line_start": 377,
           "line_end": 377,
           "metadata": {
-            "section": "Log file open/close event handlers"
+            "section": "Log file open/close event handlers",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-24",
@@ -6475,9 +6919,11 @@
           "line_end": 378,
           "metadata": {
             "level": 4,
-            "title": "Replace the Default Logger"
+            "title": "Replace the Default Logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6488,9 +6934,11 @@
           "line_start": 379,
           "line_end": 386,
           "metadata": {
-            "section": "Replace the Default Logger"
+            "section": "Replace the Default Logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6501,9 +6949,11 @@
           "line_start": 388,
           "line_end": 388,
           "metadata": {
-            "section": "Replace the Default Logger"
+            "section": "Replace the Default Logger",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-25",
@@ -6515,9 +6965,11 @@
           "line_end": 389,
           "metadata": {
             "level": 4,
-            "title": "Log to Qt with nice colors"
+            "title": "Log to Qt with nice colors",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6528,9 +6980,11 @@
           "line_start": 390,
           "line_end": 402,
           "metadata": {
-            "section": "Log to Qt with nice colors"
+            "section": "Log to Qt with nice colors",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6541,9 +6995,11 @@
           "line_start": 404,
           "line_end": 404,
           "metadata": {
-            "section": "Log to Qt with nice colors"
+            "section": "Log to Qt with nice colors",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-26",
@@ -6555,9 +7011,11 @@
           "line_end": 405,
           "metadata": {
             "level": 2,
-            "title": "Benchmarks"
+            "title": "Benchmarks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -6568,9 +7026,11 @@
           "line_start": 407,
           "line_end": 407,
           "metadata": {
-            "section": "Benchmarks"
+            "section": "Benchmarks",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-27",
@@ -6582,9 +7042,11 @@
           "line_end": 409,
           "metadata": {
             "level": 4,
-            "title": "Synchronous mode"
+            "title": "Synchronous mode",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6595,9 +7057,11 @@
           "line_start": 410,
           "line_end": 432,
           "metadata": {
-            "section": "Synchronous mode"
+            "section": "Synchronous mode",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h4-28",
@@ -6609,9 +7073,11 @@
           "line_end": 433,
           "metadata": {
             "level": 4,
-            "title": "Asynchronous mode"
+            "title": "Asynchronous mode",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-code-0",
@@ -6622,9 +7088,11 @@
           "line_start": 434,
           "line_end": 456,
           "metadata": {
-            "section": "Asynchronous mode"
+            "section": "Asynchronous mode",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-h2-29",
@@ -6636,9 +7104,11 @@
           "line_end": 458,
           "metadata": {
             "level": 2,
-            "title": "Documentation"
+            "title": "Documentation",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-0",
@@ -6649,9 +7119,11 @@
           "line_start": 459,
           "line_end": 459,
           "metadata": {
-            "section": "Documentation"
+            "section": "Documentation",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-1",
@@ -6662,9 +7134,11 @@
           "line_start": 461,
           "line_end": 461,
           "metadata": {
-            "section": "Documentation"
+            "section": "Documentation",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "docs-index.md-p-2",
@@ -6675,9 +7149,11 @@
           "line_start": 463,
           "line_end": 463,
           "metadata": {
-            "section": "Documentation"
+            "section": "Documentation",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
