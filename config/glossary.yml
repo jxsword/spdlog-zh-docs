@@ -176,6 +176,53 @@ terms:
     context: "docs-index.md"
     aliases: []
 
+  # 以下 7 条为 B2 批次提议、B3 转正（batch-B2.md §5；handoff §3.5）
+  - en: "user-defined"
+    zh: "用户自定义"
+    status: "approved"
+    context: "QuickStart.md、docs-index.md"
+    aliases: []
+    note: "user-defined literal（用户定义字面量）为 C++ 固定术语单独成条，二者并存不冲突"
+
+  - en: "runtime"
+    zh: "运行时"
+    status: "approved"
+    context: "全库（FAQ.md、Sinks.md、docs-index.md、Asynchronous-logging.md）"
+    aliases: []
+    note: "VS runtime 译「VS 运行时」同条适用"
+
+  - en: "shared pointer"
+    zh: "共享指针"
+    status: "approved"
+    context: "Logger-registry.md、Creating-loggers.md"
+    aliases: ["shared_ptr"]
+
+  - en: "worker thread"
+    zh: "工作线程"
+    status: "approved"
+    context: "Asynchronous-logging.md、Flush-policy.md、FAQ.md"
+    aliases: []
+
+  - en: "backing thread"
+    zh: "后台线程"
+    status: "approved"
+    context: "Asynchronous-logging.md"
+    aliases: []
+    note: "与 worker thread（工作线程）原文有别，不混用"
+
+  - en: "message queue"
+    zh: "消息队列"
+    status: "approved"
+    context: "Asynchronous-logging.md、Creating-loggers.md"
+    aliases: []
+
+  - en: "queue slot"
+    zh: "槽位"
+    status: "approved"
+    context: "Asynchronous-logging.md、Creating-loggers.md"
+    aliases: []
+    note: "注意与 banned「日志槽」区分语境（sink 误译 vs 队列槽位）"
+
 banned:
   - bad: "日志槽"
     prefer: "接收器"

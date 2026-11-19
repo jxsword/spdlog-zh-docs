@@ -57,7 +57,7 @@ $ cmake .. && cmake --build .
   * Windows 调试器（```OutputDebugString(..)```）。
   * 记录到 Qt 部件（[示例](#log-to-qt-with-nice-colors)）。
   * 可通过自定义日志目标轻松[扩展](https://github.com/gabime/spdlog/wiki/4.-Sinks#implementing-your-own-sink)。
-* 日志过滤——日志级别可在运行期与编译期修改。
+* 日志过滤——日志级别可在运行时与编译期修改。
 * 支持从 argv 或环境变量加载日志级别。
 
 ## 用法示例

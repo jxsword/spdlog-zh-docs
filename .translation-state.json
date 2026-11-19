@@ -17,9 +17,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3036,9 +3038,11 @@
           "line_end": 1,
           "metadata": {
             "level": 3,
-            "title": "Problem"
+            "title": "Problem",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "How-to-use-spdlog-in-DLLs.md-p-0",
@@ -3049,9 +3053,11 @@
           "line_start": 3,
           "line_end": 4,
           "metadata": {
-            "section": "Problem"
+            "section": "Problem",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "How-to-use-spdlog-in-DLLs.md-h3-1",
@@ -3063,9 +3069,11 @@
           "line_end": 6,
           "metadata": {
             "level": 3,
-            "title": "Workaround"
+            "title": "Workaround",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "How-to-use-spdlog-in-DLLs.md-p-0",
@@ -3076,9 +3084,11 @@
           "line_start": 8,
           "line_end": 8,
           "metadata": {
-            "section": "Workaround"
+            "section": "Workaround",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "How-to-use-spdlog-in-DLLs.md-code-1",
@@ -3089,9 +3099,11 @@
           "line_start": 10,
           "line_end": 60,
           "metadata": {
-            "section": "Workaround"
+            "section": "Workaround",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "How-to-use-spdlog-in-DLLs.md-code-2",
@@ -3102,9 +3114,11 @@
           "line_start": 62,
           "line_end": 94,
           "metadata": {
-            "section": "Workaround"
+            "section": "Workaround",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3125,9 +3139,11 @@
           "line_start": 1,
           "line_end": 2,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-1",
@@ -3138,9 +3154,11 @@
           "line_start": 4,
           "line_end": 5,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-2",
@@ -3151,9 +3169,11 @@
           "line_start": 7,
           "line_end": 7,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-3",
@@ -3164,9 +3184,11 @@
           "line_start": 9,
           "line_end": 9,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-4",
@@ -3177,9 +3199,11 @@
           "line_start": 11,
           "line_end": 12,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-5",
@@ -3190,9 +3214,11 @@
           "line_start": 14,
           "line_end": 14,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-6",
@@ -3203,9 +3229,11 @@
           "line_start": 16,
           "line_end": 16,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Integrating-into-Eclipse-IDE.md-p-7",
@@ -3216,9 +3244,11 @@
           "line_start": 19,
           "line_end": 19,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3240,9 +3270,11 @@
           "line_end": 1,
           "metadata": {
             "level": 1,
-            "title": "Language binding"
+            "title": "Language binding",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-h2-1",
@@ -3254,9 +3286,11 @@
           "line_end": 2,
           "metadata": {
             "level": 2,
-            "title": "Python"
+            "title": "Python",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-p-0",
@@ -3267,9 +3301,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": "Python"
+            "section": "Python",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-h3-2",
@@ -3281,9 +3317,11 @@
           "line_end": 4,
           "metadata": {
             "level": 3,
-            "title": "Installation from pypi.org"
+            "title": "Installation from pypi.org",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-p-0",
@@ -3294,9 +3332,11 @@
           "line_start": 6,
           "line_end": 6,
           "metadata": {
-            "section": "Installation from pypi.org"
+            "section": "Installation from pypi.org",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-h3-3",
@@ -3308,9 +3348,11 @@
           "line_end": 8,
           "metadata": {
             "level": 3,
-            "title": "Source"
+            "title": "Source",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-p-0",
@@ -3321,9 +3363,11 @@
           "line_start": 9,
           "line_end": 9,
           "metadata": {
-            "section": "Source"
+            "section": "Source",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-h3-4",
@@ -3335,9 +3379,11 @@
           "line_end": 10,
           "metadata": {
             "level": 3,
-            "title": "Features"
+            "title": "Features",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-p-0",
@@ -3348,9 +3394,11 @@
           "line_start": 12,
           "line_end": 19,
           "metadata": {
-            "section": "Features"
+            "section": "Features",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Language-bindings.md-p-1",
@@ -3361,9 +3409,11 @@
           "line_start": 21,
           "line_end": 22,
           "metadata": {
-            "section": "Features"
+            "section": "Features",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3623,9 +3673,11 @@
           "line_end": 1,
           "metadata": {
             "level": 3,
-            "title": "Makefile"
+            "title": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Makefile-Only.md-p-0",
@@ -3636,9 +3688,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": "Makefile"
+            "section": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Makefile-Only.md-p-1",
@@ -3649,9 +3703,11 @@
           "line_start": 5,
           "line_end": 5,
           "metadata": {
-            "section": "Makefile"
+            "section": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Makefile-Only.md-code-2",
@@ -3662,9 +3718,11 @@
           "line_start": 6,
           "line_end": 8,
           "metadata": {
-            "section": "Makefile"
+            "section": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Makefile-Only.md-p-3",
@@ -3675,9 +3733,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": "Makefile"
+            "section": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Makefile-Only.md-code-4",
@@ -3688,9 +3748,11 @@
           "line_start": 11,
           "line_end": 16,
           "metadata": {
-            "section": "Makefile"
+            "section": "Makefile",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3711,9 +3773,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-code-1",
@@ -3724,9 +3788,11 @@
           "line_start": 3,
           "line_end": 6,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-p-2",
@@ -3737,9 +3803,11 @@
           "line_start": 8,
           "line_end": 8,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-p-3",
@@ -3750,9 +3818,11 @@
           "line_start": 10,
           "line_end": 10,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-code-4",
@@ -3763,9 +3833,11 @@
           "line_start": 12,
           "line_end": 15,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-p-5",
@@ -3776,9 +3848,11 @@
           "line_start": 17,
           "line_end": 17,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-p-6",
@@ -3789,9 +3863,11 @@
           "line_start": 19,
           "line_end": 19,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Note-for-adding-sinks-on-the-fly.md-p-7",
@@ -3802,9 +3878,11 @@
           "line_start": 21,
           "line_end": 21,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3825,9 +3903,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Preventing-child-processes-from-inheriting-open-log-files.md-code-1",
@@ -3838,9 +3918,11 @@
           "line_start": 3,
           "line_end": 5,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -3861,9 +3943,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Preventing-undefined-thread-ids-in-child-processes.md-p-1",
@@ -3874,9 +3958,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Preventing-undefined-thread-ids-in-child-processes.md-code-2",
@@ -3887,9 +3973,11 @@
           "line_start": 5,
           "line_end": 7,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -4302,9 +4390,11 @@
           "line_start": 1,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -4325,9 +4415,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-code-1",
@@ -4338,9 +4430,11 @@
           "line_start": 3,
           "line_end": 15,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-2",
@@ -4351,9 +4445,11 @@
           "line_start": 17,
           "line_end": 17,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-code-3",
@@ -4364,9 +4460,11 @@
           "line_start": 19,
           "line_end": 21,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-4",
@@ -4377,9 +4475,11 @@
           "line_start": 23,
           "line_end": 23,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-code-5",
@@ -4390,9 +4490,11 @@
           "line_start": 25,
           "line_end": 34,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-6",
@@ -4403,9 +4505,11 @@
           "line_start": 36,
           "line_end": 36,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-7",
@@ -4416,9 +4520,11 @@
           "line_start": 38,
           "line_end": 38,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-code-8",
@@ -4429,9 +4535,11 @@
           "line_start": 40,
           "line_end": 56,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-9",
@@ -4442,9 +4550,11 @@
           "line_start": 58,
           "line_end": 58,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-code-10",
@@ -4455,9 +4565,11 @@
           "line_start": 60,
           "line_end": 97,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Setting-up-JSON-logging-with-spdlog.md-p-11",
@@ -4468,9 +4580,11 @@
           "line_start": 99,
           "line_end": 99,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -5702,9 +5816,11 @@
           "line_start": 1,
           "line_end": 1,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Tweaking.md-p-1",
@@ -5715,9 +5831,11 @@
           "line_start": 3,
           "line_end": 3,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Tweaking.md-code-2",
@@ -5728,9 +5846,11 @@
           "line_start": 5,
           "line_end": 119,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,
@@ -5751,9 +5871,11 @@
           "line_start": 1,
           "line_end": 2,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Windows-unicode-filenames.md-code-1",
@@ -5764,9 +5886,11 @@
           "line_start": 3,
           "line_end": 5,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Windows-unicode-filenames.md-p-2",
@@ -5777,9 +5901,11 @@
           "line_start": 6,
           "line_end": 6,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         },
         {
           "id": "Windows-unicode-filenames.md-code-3",
@@ -5790,9 +5916,11 @@
           "line_start": 8,
           "line_end": 11,
           "metadata": {
-            "section": ""
+            "section": "",
+            "translator": "orchestrator-B3",
+            "translated_at": "2026-11-19"
           },
-          "status": "pending"
+          "status": "translated"
         }
       ],
       "excluded": false,

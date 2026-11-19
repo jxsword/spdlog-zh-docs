@@ -1,7 +1,7 @@
 # 翻译任务看板（translation-board）
 
-> 状态快照：2026-11-19（B2 后） ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（395 translated + 64 pending + 2 skipped）
-> 任务粒度 = 1 个 zh 页（大页按段落区间拆子任务时**同页串行**）；agent 并发上限 2（同页串行、跨页并行）。
+> 状态快照：2026-11-19（B3 后，M2 全量完成） ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（**459 translated + 0 pending** + 2 skipped）
+> 任务粒度 = 1 个 zh 页（大页按段落区间拆子任务时**同页串行**）；agent 并发上限实测 1（B2/B3 复现），全程串行。
 > 批次结构对齐计划 §7.1 实测清单；每批完成后更新本表并落批次报告 reports/batch-*.md。
 
 ## 批次总览
@@ -10,8 +10,8 @@
 |---|---|---:|---|
 | M1 基建 | 同步管线 + 脚本/测试/门禁/站点/CI | 0 | **已完成**（2026-11-19，验收证据见 [handoff-latest.md](handoff-latest.md)） |
 | B1 核心 | 5 页：index(Home)/QuickStart/CMake/Custom-formatting/Sinks | 157 | **已完成**（2026-11-19，证据见 [batch-B1.md](../reports/batch-B1.md)） |
-| B2 主体 | 8 页 + docs-index | 238 | **已完成，待验收**（2026-11-19，证据见 [batch-B2.md](../reports/batch-B2.md)） |
-| B3 收尾 | 12 小页 | 64 | pending |
+| B2 主体 | 8 页 + docs-index | 238 | **已完成**（2026-11-19，证据见 [batch-B2.md](../reports/batch-B2.md)） |
+| B3 收尾 | 12 小页 | 64 | **已完成，待验收**（2026-11-19，证据见 [batch-B3.md](../reports/batch-B3.md)） |
 | M3 | 全量 sweep + tag v1.0 + 增量演练 | — | pending |
 | M4 README 翻译 | **全部任务结束后按需翻译**（仅用户要求时启动，DR-001） | — | 按需 |
 
@@ -39,22 +39,24 @@
 | B2-8 | FAQ.md | 35 | ✅ 已完成 | agent 中断但译文完整；checker 围栏豁免修复；Discussion 断链补全 |
 | T-009 | docs-index.md | 85 | ✅ 已完成 | 编排方会话内翻译；锚点 ×2 + JetBrains logo 资产修正 |
 
-## B3 收尾（段数 64）
+## B3 收尾（段数 64）——已完成
 
 | 任务 ID | 页面 | 段数 | 状态 | 备注 |
 |---|---|---:|---|---|
-| B3-1 | Tweaking.md | 3 | pending | 段数少但代码占比高 |
-| B3-2 | Setting-up-JSON-logging-with-spdlog.md | 12 | pending | |
-| B3-3 | How-to-use-spdlog-in-DLLs.md | 6 | pending | |
-| B3-4 | Language-bindings.md | 10 | pending | |
-| B3-5 | Integrating-into-Eclipse-IDE.md | 8 | pending | |
-| B3-6 | Makefile-Only.md | 6 | pending | |
-| B3-7 | Note-for-adding-sinks-on-the-fly.md | 8 | pending | |
-| B3-8 | Preventing-child-processes-from-inheriting-open-log-files.md | 2 | pending | |
-| B3-9 | Preventing-undefined-thread-ids-in-child-processes.md | 3 | pending | |
-| B3-10 | Windows-unicode-filenames.md | 4 | pending | |
-| B3-11 | Reference-documentation-using-Doxygen.md | 1 | pending | |
-| B3-12 | 3.-Custom-formatting).md | 1 | pending | 上游遗留垃圾页（Envoy 日志格式串粘贴事故页）：1 段按"代码类内容逐字保留"处理并登记批次报告 |
+| B3-1 | Tweaking.md | 3 | ✅ 已完成 | tweakme.h 代码块 114 行逐字节未动 |
+| B3-2 | Setting-up-JSON-logging-with-spdlog.md | 12 | ✅ 已完成 | 5 围栏含弯引号逐字节保留 |
+| B3-3 | How-to-use-spdlog-in-DLLs.md | 6 | ✅ 已完成 | 段内 ```span``` 结构保留 |
+| B3-4 | Language-bindings.md | 10 | ✅ 已完成 | 特性类名列表保持英文 |
+| B3-5 | Integrating-into-Eclipse-IDE.md | 8 | ✅ 已完成 | `<br>`/编号 1)-5)/源文错位反引号保留 |
+| B3-6 | Makefile-Only.md | 6 | ✅ 已完成 | 文件名标注散文行保留原样 |
+| B3-7 | Note-for-adding-sinks-on-the-fly.md | 8 | ✅ 已完成 | callback sink 首现括注 |
+| B3-8 | Preventing-child-processes-from-inheriting-open-log-files.md | 2 | ✅ 已完成 | |
+| B3-9 | Preventing-undefined-thread-ids-in-child-processes.md | 3 | ✅ 已完成 | 段内 ```span``` 结构保留 |
+| B3-10 | Windows-unicode-filenames.md | 4 | ✅ 已完成 | 尾随空格保留；Windows/Unicode 大小写规范化 |
+| B3-11 | Reference-documentation-using-Doxygen.md | 1 | ✅ 已完成 | 裸 URL 原样；源文语法瑕疵按语义等价译 |
+| B3-12 | 3.-Custom-formatting).md | 1 | ✅ 已完成 | 上游 Envoy 粘贴事故页：1 段逐字保留（URL `)` 编码 `%29`）；编排方会话内处置 |
+
+抽检：定点 11 段（≈17%）→ 0×P0 / 0×P1 / 1×P2（Sinks 措辞，已修复）；术语转正 7 条入 glossary.yml + runtime 词级统一 3 处。
 
 ## 已完成（M1 基建 + B1 核心）
 
@@ -70,6 +72,9 @@
       + check_alignment/mark_translated 新增工具 + batch-B1 报告（token 实测 3,846,475）
 - [x] B2 九页 238 段翻译（串行派发）+ checker 围栏豁免修复（6 回归测试）+ 抽检 66 段修复 4 处
       + docs-index 会话内翻译（锚点 ×2 + logo 资产修正）+ batch-B2 报告（subagent token 实测 3,858,681）
+- [x] B3 十二小页 64 段翻译（串行派发）+ 事故页 3.-Custom-formatting).md 会话内逐字保留处置 + 抽检 11 段修复 1 处
+      + 术语转正 7 条（glossary.yml）+ runtime 词级统一 3 处 + batch-B3 报告（subagent token 实测 3,673,187）
+      + **M2 全量完成：459/461 段 translated（99.6%）**，导航告警归零
 
 ## 硬性纪律（每批适用）
 
