@@ -1,6 +1,6 @@
 {
   "upstream_repo": "https://github.com/gabime/spdlog.wiki.git",
-  "upstream_commit": "150904800daf7c86f7be1fb61d47e3e471f54022",
+  "upstream_commit": "0d3a26eda2ba6dd7370bb6e800780acd75913899",
   "docs_index_commit": "3cd4a76ed41517e91161bf09412ba07ea7cf6836",
   "files": {
     "3.-Custom-formatting).md": {
@@ -1957,8 +1957,8 @@
     },
     "Default-logger.md": {
       "file_path": "Default-logger.md",
-      "upstream_hash": "eb56a2bfbb54a847",
-      "upstream_commit": "150904800daf7c86f7be1fb61d47e3e471f54022",
+      "upstream_hash": "3ebe248446891e3b",
+      "upstream_commit": "0d3a26eda2ba6dd7370bb6e800780acd75913899",
       "segments": [
         {
           "id": "Default-logger.md-p-0",
@@ -1978,15 +1978,15 @@
         {
           "id": "Default-logger.md-p-1",
           "type": "paragraph",
-          "content": "It can be used easily by calling ```spdlog::info(..), spdlog::debug(..), etc``` directly.",
-          "hash": "e56bb5ba67f4c25d",
+          "content": "It can be used easily by calling ```spdlog::info(..), spdlog::debug(..), etc``` directly, without any additional setup.",
+          "hash": "56ba9de633f1fd03",
           "file_path": "Default-logger.md",
           "line_start": 3,
           "line_end": 3,
           "metadata": {
             "section": "",
             "translator": "agent:glm-5.3-flash",
-            "translated_at": "2026-11-19"
+            "translated_at": "2026-11-20"
           },
           "status": "translated"
         },
@@ -2017,6 +2017,21 @@
             "section": "",
             "translator": "agent:glm-5.3-flash",
             "translated_at": "2026-11-19"
+          },
+          "status": "translated"
+        },
+        {
+          "id": "Default-logger.md-p-4",
+          "type": "paragraph",
+          "content": "For a quick overview, see the [QuickStart](QuickStart.md) page.",
+          "hash": "f38ffbb56b1a609a",
+          "file_path": "Default-logger.md",
+          "line_start": 11,
+          "line_end": 11,
+          "metadata": {
+            "section": "",
+            "translator": "agent:glm-5.3-flash",
+            "translated_at": "2026-11-20"
           },
           "status": "translated"
         }
