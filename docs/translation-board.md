@@ -1,6 +1,6 @@
 # 翻译任务看板（translation-board）
 
-> 状态快照：2026-11-19（B3 后，M2 全量完成） ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（**459 translated + 0 pending** + 2 skipped）
+> 状态快照：2026-11-20（M3 后，**v1.0 已发布，维护态**） ｜ 基线：wiki@15090480 + docs-index@3cd4a76 ｜ 461 段（**459 translated + 0 pending** + 2 skipped）
 > 任务粒度 = 1 个 zh 页（大页按段落区间拆子任务时**同页串行**）；agent 并发上限实测 1（B2/B3 复现），全程串行。
 > 批次结构对齐计划 §7.1 实测清单；每批完成后更新本表并落批次报告 reports/batch-*.md。
 
@@ -12,7 +12,8 @@
 | B1 核心 | 5 页：index(Home)/QuickStart/CMake/Custom-formatting/Sinks | 157 | **已完成**（2026-11-19，证据见 [batch-B1.md](../reports/batch-B1.md)） |
 | B2 主体 | 8 页 + docs-index | 238 | **已完成**（2026-11-19，证据见 [batch-B2.md](../reports/batch-B2.md)） |
 | B3 收尾 | 12 小页 | 64 | **已完成，待验收**（2026-11-19，证据见 [batch-B3.md](../reports/batch-B3.md)） |
-| M3 | 全量 sweep + tag v1.0 + 增量演练 | — | pending |
+| M3 | 全量 sweep + tag v1.0 + 增量演练 | — | **已完成**（2026-11-20，证据见 [m3-report.md](../reports/m3-report.md)） |
+| 维护态 | 上游增量跟进（sync-upstream 每周一自动检测 → Sync PR → 增量翻译，SOP 见 [handoff-latest.md §5](handoff-latest.md)） | — | 常态运转 |
 | M4 README 翻译 | **全部任务结束后按需翻译**（仅用户要求时启动，DR-001） | — | 按需 |
 
 ## B1 核心（段数 157）——已完成
@@ -57,6 +58,16 @@
 | B3-12 | 3.-Custom-formatting).md | 1 | ✅ 已完成 | 上游 Envoy 粘贴事故页：1 段逐字保留（URL `)` 编码 `%29`）；编排方会话内处置 |
 
 抽检：定点 11 段（≈17%）→ 0×P0 / 0×P1 / 1×P2（Sinks 措辞，已修复）；术语转正 7 条入 glossary.yml + runtime 词级统一 3 处。
+
+## M3 收官（2026-11-20）
+
+- [x] 全量 sweep 三项全绿：术语 12 条复核转正（glossary 35→47 条 approved，validate 对账零新增告警）；
+      断链双通道复查 71/72（dunescience SSO 内网站点上游固有，复核接受）；构建基线 0 内容告警 + 1 环境通告
+- [x] tag v1.0 发布（annotated，commit 1f72b16；README TASL/页脚/LICENSE_TRANSLATION 确认在位）
+- [x] 增量演练端到端走通（模拟上游改 Default-logger 1 页 → sync 检测 +2/−1 段 kept 3 → 增量翻译 2 段
+      → 四门禁全绿 → PR #1 CI 绿 → 关闭不合并，main 基线完好）；演练发现并修复 2 个 workflow bug
+      （破坏性镜像 → 增量镜像；auto PR 补提交 state）
+- [x] sync-upstream 自动 PR 模式确认可用（workflow_dispatch 实测 success，v1.0 门控接通）
 
 ## 已完成（M1 基建 + B1 核心）
 

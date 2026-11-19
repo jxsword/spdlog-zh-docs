@@ -1,62 +1,57 @@
 # 会话交接文档（handoff-latest）
 
-> 更新: 2026-11-19 ｜ 里程碑: **M2 全量完成（B3 收官），待用户验收** ｜ 下一阶段: **M3（验收确认后启动）**
-> 本文件是每批次/sync 收尾更新的唯一交接入口；新会话开工前**必读**本文件 + 计划 §6/§7.1 + reports/batch-B3.md。
+> 更新: 2026-11-20 ｜ 里程碑: **M3 完成（v1.0 已发布，进入维护态）** ｜ 下一阶段: **维护态（上游增量跟进）；M4 README 仅按需启动**
+> 本文件是每批次/sync 收尾更新的唯一交接入口；新会话开工前**必读**本文件 + 计划 §6/§7 + reports/m3-report.md。
 
 ## 1. 状态快照
 
-- **远程仓库**: https://github.com/jxsword/spdlog-zh-docs （main 已推送至 B2 squash commit；B3 squash commit 待验收后推送/已推送以 git log 为准）；站点 https://jxsword.github.io/spdlog-zh-docs/
-- **CI**: validate / deploy / sync-upstream 三 workflow；B3 推送后 deploy 自动发布 28 页中文站全量
-- **基线**: wiki@15090480 + docs-index@3cd4a76（B3 未动）；28 文件 / 461 段 = **459 translated（99.6%）** + 0 pending + 2 skipped（_Sidebar/_Footer，计划 §6.1 豁免）
-- **门禁实测**（2026-11-19，编排方亲跑）: check_alignment 26/26 页 OK exit 0（6 老告警已复核接受）；validate 全量 exit 0（27 告警 = 26 页头链接计数 + 1 flush 子串误报，均许可/已登记）；pytest **101/101**；`memgate .venv/bin/mkdocs build` exit 0 零 error，**导航告警 10→0**（余 1 条 Material Zensical 环境通告，非内容）
-- **抽检**: 第二校对 agent 定点 11 段（≈17%）：0×P0 / 0×P1 / 1×P2，已修复复绿
-- **术语**: glossary 现 35 条 approved + 8 banned；B2 提议 7 条已转正（user-defined/runtime/shared pointer/worker thread/backing thread/message queue/queue slot），runtime 词级统一 3 处（Sinks ×2、docs-index ×1）
+- **远程仓库**: https://github.com/jxsword/spdlog-zh-docs （main 已推送至 M3 sweep commit `1f72b16`）｜ 站点 https://jxsword.github.io/spdlog-zh-docs/
+- **tag v1.0 已发布**（annotated，tag 对象 `07fe6b1` → commit `1f72b16`）；sync-upstream 自动 Sync PR 模式自此解锁
+- **CI**: validate / deploy / sync-upstream 三 workflow；deploy 随 main push 自动发布
+- **基线**: wiki@15090480 + docs-index@3cd4a76（M3 未动）；28 文件 / 461 段 = **459 translated（99.6%）** + 0 pending + 2 skipped（_Sidebar/_Footer，计划 §6.1 豁免）
+- **门禁实测**（2026-11-20，编排方亲跑）: check_alignment 全量 exit 0；validate 全量 exit 0（27 告警 = 26 页头链接 + 1 flush 子串误报，均许可/登记）；pytest **101/101**；`memgate .venv/bin/mkdocs build` exit 0（**0 内容告警 + 1 Material Zensical 环境通告**）
+- **术语**: glossary **47 条 approved** + 8 banned（M3 sweep 转正 B3 提议 12 条，validate 对账零新增告警）
+- **外链**: 直连+代理双通道 71/72 ok；唯一异常 `internal.dunescience.org`（上游固有 Fermilab SSO 内网站点）已复核接受
 - zh/ 28 页全部为中文译文 + 页头 `> 原文：` 链接；事故页 `3.-Custom-formatting).md` 1 段逐字保留（URL `)` → `%29`）
 
-## 2. B3 交付清单（全部入库）
+## 2. M3 交付清单（全部入库）
 
-- zh/ 12 页：Tweaking / Setting-up-JSON-logging / How-to-use-spdlog-in-DLLs / Language-bindings / Integrating-into-Eclipse-IDE / Makefile-Only / Note-for-adding-sinks-on-the-fly / Preventing-child×2 / Windows-unicode / Doxygen / `3.-Custom-formatting)`（逐字保留）
-- state：64 段 translated（源文 hash 未动）；glossary.yml +7 条（含 note 双语术语并存说明）
-- reports/batch-B3.md（含 token）+ progress 重生成 + 本文件 + 看板 + 启动提示词（M3 版）
+- sweep：glossary.yml +12 条（B3 提议复核转正）；sweep commit `1f72b16`
+- tag v1.0：annotated tag 推送，README TASL/页脚/LICENSE_TRANSLATION 确认在位
+- 增量演练端到端走通（模拟上游改 Default-logger 1 页 → sync 检测 M +2/−1 段 kept 3 → 增量翻译 2 段 → 四门禁 → PR #1 CI 绿 → 关闭不合并）；演练证据 reports/m3-report.md §3 + reports/sync-2026-11-20-0d3a26ed.md（随演练分支，未合并）
+- workflow 双 bug 修复：sync_upstream.sh 破坏性镜像 → 增量镜像；sync-upstream.yml auto PR 补提交 .translation-state.json
+- 自动 PR 模式实测：workflow_dispatch run 44568219100 全步骤 success
+- reports/m3-report.md + 本文件 + 看板 + 启动提示词（维护态版）
 
-## 3. B3 关键经验（增量，M3 必读；B1/B2 经验见 §4/§5）
+## 3. M3 关键经验（增量；B1/B2/B3 经验仍有效，见 m3-report 与历史批次报告）
 
-1. **并发上限 = 1 复现成立**：B3 全程串行 11 次派发无一被拒；短 prompt 模式 + 真实路径无占位符未再发生 prompt 损坏。
-2. **diff 退出码会截断 `&&` 链**：`diff` 有差异时退出码 1（预期），链式命令会静默中断后续 mark_translated/validate——流水线步骤用 `;` 分步跑或分开调用。
-3. **仓库 hook 拒绝 Bash 直接写文件**（cp/重定向写 zh/ 或 config/ 会触发 Mimosa PreToolUse 拒绝）：文件落盘一律用 Write/Edit 工具。
-4. **mkdocs 环境通告**：Material 9.8.1 构建输出 Zensical 迁移提示 1 条（`NO_MKDOCS_2_WARNING=1` 可静默）；内容告警基线已归零，后续对照以「0 内容告警 + 1 环境通告」为准。
-5. **术语转正联动词级统一**：转正 runtime 后需同步统一既有页变体（运行期/运行期间→运行时），否则 validate 提示性告警残留；转正即跑全量 validate 对账。
-6. **专有名词大小写规范化许可**（python→Python、windows→Windows、unicode→Unicode）与 **Makefile-Only 文件名标注行保留**登记为许可行为，抽检豁免。
-7. **validate `flush` 子串误报**（Sinks.md 正文 API 名 `flush_(..)` 命中术语子串且 zh 全文无「刷新」）：无实际可改项，维持告警不阻断；若 M3 sweep 想消掉需改 checker 子串匹配（strip_code 已剥离代码，此处是散文内 API 名），收益低不推荐。
+1. **演练即测试**：模拟上游改页暴露了 2 个真实 workflow bug（rm -rf 破坏性镜像会误删 zh 侧自备资产；auto PR `git add` 漏 state 文件会致每周重复开 PR）——已修复，后续真实 Sync PR 不再受影响。
+2. **check 5 子串匹配预检**：术语转正前先排查英文术语是否为其他词的子串（"asy**nc mode**" ⊃ "sync mode"），逐文件确认译文含对应中文词，可零告警转正。
+3. **HEAD 不可达 ≠ 断链**：linkcheck 用 HEAD 请求，部分站点拒 HEAD 返 5xx（dunescience GET 303→SSO）；逐条人工复核后再定性。
+4. **PR 演练纪律**：模拟上游的 PR 必须**关闭不合并**（state.upstream_commit 会指向模拟 commit，合并将污染真基线并破坏下次 sync 的 `cat-file -e` 校验）。
+5. mkdocs-material 构建时会重写 docs_dir 相对 `src="..."` 为 `assets/...`（B2 手工补入的 jetbrains logo 渲染正常，此机制已实测确认）。
 
-## 4. B2 经验（仍有效；B1 见 §5）
+## 4. B3 经验（仍有效；B2 见 §5，B1 见 §6）
 
-1. 子代理可能被凭据问题切断——先实测文件与门禁再补救；大页可直接会话内翻译（T-009 先例）。
-2. check_alignment 假阳性：行内 ```span``` 开头的散文行（已修：围栏 span 豁免）；同类告警先查"该段是否在真实围栏内"。
-3. 流水线许可行为：页头注入行 / `{#id}` 锚点 / assets 路径修正 / FAQ Discussion 域名补全 / 事故页逐字保留 / 文件名标注行保留 / 大小写规范化。
-4. 派发 prompt 内绝不出现占位符路径。
+1. **并发上限 = 1 复现成立**；短 prompt 模式 + 真实路径无占位符。
+2. **diff 退出码会截断 `&&` 链**：流水线步骤用 `;` 分步或分开调用。
+3. **仓库 hook 拒绝 Bash 直接写文件**：文件落盘一律用 Write/Edit 工具。
+4. **mkdocs 环境通告**：0 内容告警 + 1 Zensical 通告为基线。
+5. **术语转正联动词级统一**：先 grep 变体再改，改完全量 validate 对账。
+6. **许可行为清单**（抽检豁免）：页头注入行 / `{#id}` 锚点 / assets 修正 / FAQ 域名补全 / 事故页逐字保留 / Makefile-Only 文件名行 / 大小写规范化。
+7. **validate `flush` 子串误报**：维持告警不阻断，勿改 checker。
 
-## 5. B1 经验（仍有效）
+## 5. 维护态操作手册（上游增量跟进 SOP）
 
-1. 短 prompt 模式（agent 自读 config/glossary.yml + style-guide.md）。
-2. 子代理声明一律不可信——门禁以编排方亲跑为准（check_alignment + validate + pytest + build）。
-3. 代码块逐字节不动（含注释）；"不增不减"优先于术语启发式告警。
-4. mkdocs 用 `.venv/bin/mkdocs`；退出码勿被管道吞掉（临时文件 + echo $?）。
-5. site_dir=/tmp 出树；上游无 [[..]] 语法；测试不写仓库 reports/。
-6. 工具链（2026-11-19 实测）：mkdocs 1.6.1 / material 9.8.1 / jieba 0.42.1 / pytest 9.0.2。
+真实上游变更出现时（每周一自动或手动 `gh workflow run sync-upstream.yml`）：
 
-## 6. M3 入口（验收确认后启动）
+1. workflow 开出 `sync/<date>` 分支 + Sync PR（含 source/ 更新、state pending 标记、sync 报告）；
+2. 在 PR 分支上**增量翻译 pending 段**（小量会话内直译，大量按批次派发 agent），`mark_translated` 后跑四门禁；
+3. 门禁全绿 → squash merge → deploy 自动发布；同步更新 handoff/progress/看板（如页面结构变化）；
+4. 注意事项：镜像为增量式（zh 侧自备资产保留）；state 随 PR 提交（已修复）；历史遗留 archive/ 归档机制不变。
+   - 手动增量（不经 CI）参考：`memgate bash scripts/sync_upstream.sh --since <state 中的 sha> --repo <wiki URL> --skip-docs-index`（退出码 0=无变更/1=有变更/2=错误）。
 
-- **全量 sweep**：① 术语一致性终检（B3 新提议 12 条复核入表，见 batch-B3 §5；全库 approved 术语扫描对账）；② 断链复查（linkcheck.py 低频跑一轮）；③ 构建基线确认（0 内容告警 + 1 环境通告）。
-- **tag v1.0**：sweep 全绿后打 tag；README/页脚/署名已具备，无需新改动。
-- **增量演练**：模拟上游改页端到端（fork wiki 改 1 页 → sync-upstream 检测 → pending → 增量翻译 → PR）；演练通过后开启自动 sync PR 模式（计划 §6.6）。
-- M4（按需）：README 翻译，仅用户要求时启动。
-- 启动提示词已更新为 M3 版（docs/新会话启动提示词.md）。
+## 6. M4 入口（按需）
 
-## 7. 硬性纪律（重申）
-
-- 一切以计划文档为准；改架构/目录/工具链属重大决策（矩阵 + 用户确认 + decision_log）。
-- 所有脚本/构建 memgate 包裹；构建产物出仓库树；source/ 只读；文件写入用 Write/Edit 工具（hook 拦 Bash 直写）。
-- 门禁硬性化：全部退出码生效，禁止 `|| true`；门禁链 = check_alignment + validate_translation + pytest + mkdocs build。
-- 每批次一个 squash commit；批次报告含实际 token；收尾更新 handoff/progress。
-- 上下文过半或批次收尾主动建议开新会话并给启动提示词。
+- **README 翻译：仅用户明确要求时启动**（DR-001，看板排最末）。
+- 启动提示词已更新为维护态版（docs/新会话启动提示词.md）。

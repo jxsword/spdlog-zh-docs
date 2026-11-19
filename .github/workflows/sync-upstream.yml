@@ -84,8 +84,9 @@ jobs:
           RC=0
           python3 scripts/sync_docs.py --since "$STATE_SHA" --report || RC=$?
           if [ "$RC" -ne 0 ] && [ "$RC" -ne 1 ]; then echo "sync_docs failed rc=$RC"; exit 2; fi
-          if [ "$RC" -eq 1 ] && [ -n "$(git status --porcelain -- source zh reports)" ]; then
-            git add source zh reports
+          if [ "$RC" -eq 1 ] && [ -n "$(git status --porcelain -- source zh reports .translation-state.json)" ]; then
+            # M3 演练修复：state 是增量迁移依据，必须随 PR 提交，否则每周重复开同一 Sync PR
+            git add source zh reports .translation-state.json
             git commit -m "sync: upstream wiki ${WIKI_HEAD} → 本仓库（自动 Sync PR）"
             git push origin "$BRANCH"
             gh pr create --base main --head "$BRANCH" \

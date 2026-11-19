@@ -87,14 +87,16 @@ for c in data.get("changes", []):
 PYEOF
 
 # --- 3. 附件镜像 source/assets → zh/assets（mkdocs docs_dir=zh，附件不翻译）---
+# 增量镜像（M3 演练修复）：rm -rf 会误删 zh 侧自备资产（如 docs-index 的
+# logos/jetbrains-variant-4.svg，上游 docs2.x 附件未经 fetch_docs_index 同步），
+# 故只增不删；上游同名资产以 source/assets 为准覆盖。
 echo "== [3/3] 附件镜像 =="
 if [ -d source/assets ]; then
-    rm -rf zh/assets
     mkdir -p zh/assets
     cp -a source/assets/. zh/assets/
-    echo "  zh/assets 已镜像（$(find zh/assets -type f | wc -l) 个文件）"
+    echo "  zh/assets 已增量镜像（$(find zh/assets -type f | wc -l) 个文件）"
 else
-    echo "  无附件，跳过"
+    echo "  无上游附件，跳过（zh/assets 内 zh 侧自备资产保留不清理）"
 fi
 
 HAS_CHANGES="$(python3 -c "import json,sys;print('1' if json.load(open(sys.argv[1],encoding='utf-8'))['has_changes'] else '0')" "$SYNC_JSON")"
