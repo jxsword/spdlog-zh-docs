@@ -223,6 +223,87 @@ terms:
     aliases: []
     note: "注意与 banned「日志槽」区分语境（sink 误译 vs 队列槽位）"
 
+  # 以下 12 条为 B3 批次提议、M3 sweep 复核转正（batch-B3.md §5；M3 报告 §术语）
+  - en: "log entry"
+    zh: "日志条目"
+    status: "approved"
+    context: "FAQ.md、Setting-up-JSON-logging-with-spdlog.md"
+    aliases: ["log entries"]
+    note: "Sinks/JSON 页代码注释内出现处逐字保留（代码块不动）"
+
+  - en: "log transaction"
+    zh: "日志事务"
+    status: "approved"
+    context: "Language-bindings.md"
+    aliases: []
+    note: "首现括注（log transaction）"
+
+  - en: "thread local storage"
+    zh: "线程局部存储"
+    status: "approved"
+    context: "Preventing-undefined-thread-ids-in-child-processes.md"
+    aliases: ["thread-local storage"]
+    note: "首现括注；Tweaking.md 内出现处为代码注释逐字保留"
+
+  - en: "severity"
+    zh: "严重级别"
+    status: "approved"
+    context: "Flush-policy.md、Setting-up-JSON-logging-with-spdlog.md"
+    aliases: []
+
+  - en: "shared library"
+    zh: "共享库"
+    status: "approved"
+    context: "CMake.md、FAQ.md、How-to-use-spdlog-in-DLLs.md"
+    aliases: ["shared libraries"]
+
+  - en: "workaround"
+    zh: "变通方法"
+    status: "approved"
+    context: "How-to-use-spdlog-in-DLLs.md"
+    aliases: []
+    note: "QuickStart.md 内出现处为代码注释逐字保留"
+
+  - en: "copy constructor"
+    zh: "拷贝构造函数"
+    status: "approved"
+    context: "Note-for-adding-sinks-on-the-fly.md"
+    aliases: []
+
+  - en: "RHS"
+    zh: "右侧（RHS）对象"
+    status: "approved"
+    context: "Note-for-adding-sinks-on-the-fly.md"
+    aliases: []
+    note: "zh 形式「右侧（RHS）对象」，首现保留缩写括注"
+
+  - en: "child process"
+    zh: "子进程"
+    status: "approved"
+    context: "index.md、Preventing-child-processes-from-inheriting-open-log-files.md"
+    aliases: ["child processes"]
+    note: "Tweaking.md 内出现处为代码注释逐字保留"
+
+  - en: "file descriptor"
+    zh: "文件描述符"
+    status: "approved"
+    context: "Preventing-child-processes-from-inheriting-open-log-files.md"
+    aliases: ["file descriptors"]
+    note: "Tweaking.md 内出现处为代码注释逐字保留"
+
+  - en: "function signature"
+    zh: "函数签名"
+    status: "approved"
+    context: "Reference-documentation-using-Doxygen.md"
+    aliases: ["function signatures"]
+
+  - en: "sync mode"
+    zh: "同步模式"
+    status: "approved"
+    context: "Language-bindings.md、docs-index.md（Synchronous mode）"
+    aliases: ["synchronous mode"]
+    note: "与 approved「async mode=异步模式」成对；注意 async mode 含 sync mode 子串，仅 Language-bindings.md 散文命中且译文已含「同步模式」"
+
 banned:
   - bad: "日志槽"
     prefer: "接收器"
